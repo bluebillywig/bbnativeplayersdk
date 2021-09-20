@@ -11,8 +11,8 @@ BBPlayerViewDelegate interface and assign it to the player view in order to resp
 
 ## Android
 
-Go to [Android documentation](/test/android/latest "Android documentation")
+Go to [Android documentation](/bbnativeplayersdk/android/latest "Android documentation")
 
 ## iOS
 
-Go to [iOS documentation](/test/ios/latest "iOS documentation")
+Go to [iOS documentation](/bbnativeplayersdk/ios/latest "iOS documentation")
