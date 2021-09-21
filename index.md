@@ -8,7 +8,9 @@ The *BBNativePlayer* class only has static factory functions for creating the vi
 The *BBNativePlayerView* class, which extends the platform’s core UI View class (iOS: UIView, Android: View), is what you place in your layout. 
 It offers an API to control the player (`callApiMethod`) and get/set player properties (`getApiProperty`/`setApiProperty`).  
 Finally, if needed, you make your own implementation of the 
-*BBPlayerViewDelegate* interface and assign it to the player view in order to respond to events.
+*BBPlayerViewDelegate* interface and assign it to the player view in order to respond to events.  
+
+When creating a player view, you supply a json embed URL and (optionally) an options dictionary. The json URL is similar to Blue Billywig's standard embed URL. Its only difference is the .json extension, e.g. `https://demo.bbvms.com/p/default_standard/c/2431946.json` . Thus, it supports various content types (clip, playlist, project), and playout configurations.
 
 ## Android
 
