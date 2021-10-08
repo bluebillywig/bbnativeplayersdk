@@ -1,13 +1,6 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
 $dokka.location:com.bluebillywig.bbnativeplayersdk////PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/index.html
-$dokka.location:com.bluebillywig.bbnativeplayersdk/ActivityIndicatorView.Companion///PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-activity-indicator-view/-companion/index.html
-$dokka.location:com.bluebillywig.bbnativeplayersdk/ActivityIndicatorView.Companion/TAG/#/PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-activity-indicator-view/-companion/-t-a-g.html
-$dokka.location:com.bluebillywig.bbnativeplayersdk/ActivityIndicatorView///PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-activity-indicator-view/index.html
-$dokka.location:com.bluebillywig.bbnativeplayersdk/ActivityIndicatorView/ActivityIndicatorView/#android.content.Context#android.util.AttributeSet?#kotlin.Int/PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-activity-indicator-view/-activity-indicator-view.html
-$dokka.location:com.bluebillywig.bbnativeplayersdk/ActivityIndicatorView/__destruct/#/PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-activity-indicator-view/__destruct.html
-$dokka.location:com.bluebillywig.bbnativeplayersdk/ActivityIndicatorView/eventBus/#/PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-activity-indicator-view/event-bus.html
-$dokka.location:com.bluebillywig.bbnativeplayersdk/ActivityIndicatorView/onEvent/#com.bluebillywig.bbnativeshared.enums.EventName#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-activity-indicator-view/on-event.html
 $dokka.location:com.bluebillywig.bbnativeplayersdk/BBNativePlayer.Companion///PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-b-b-native-player/-companion/index.html
 $dokka.location:com.bluebillywig.bbnativeplayersdk/BBNativePlayer.Companion/createJsonEmbedUrl/#kotlin.String#kotlin.String#kotlin.String#kotlin.String?#kotlin.String?/PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-b-b-native-player/-companion/create-json-embed-url.html
 $dokka.location:com.bluebillywig.bbnativeplayersdk/BBNativePlayer.Companion/createModalPlayerView/#androidx.appcompat.app.AppCompatActivity#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-b-b-native-player/-companion/create-modal-player-view.html
