@@ -17,7 +17,7 @@
     <a title="BBNativePlayerViewDelegate Protocol Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (66% documented)</p>
+        <p><a href="../index.html"> Docs</a> (77% documented)</p>
         <p class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -40,6 +40,9 @@
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="../Classes/BBNativePlayer.html">BBNativePlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BBNativePlayerAPI.html">BBNativePlayerAPI</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a>
@@ -77,9 +80,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didSetupWithJsonUrlWithUrl:"></a>
-                    <a name="//apple_ref/swift/Method/didSetupWithJsonUrl(url:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didSetupWithJsonUrlWithUrl:">didSetupWithJsonUrl(url:<wbr>)</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didSetupWithJsonUrl:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(playerView:didSetupWithJsonUrl:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didSetupWithJsonUrl:">bbNativePlayerView(playerView:<wbr>didSetupWithJsonUrl:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -95,7 +98,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didSetupWithJsonUrl</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">,</span> <span class="n">didSetupWithJsonUrl</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
 
                         </div>
                       </div>
@@ -103,6 +106,18 @@
                         <h4>Parameters</h4>
                         <table class="graybox">
                           <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
                             <tr>
                               <td>
                                 <code>
@@ -124,9 +139,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didFailWithErrorWithError:"></a>
-                    <a name="//apple_ref/swift/Method/didFailWithError(error:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didFailWithErrorWithError:">didFailWithError(error:<wbr>)</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didFailWithError:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(playerView:didFailWithError:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didFailWithError:">bbNativePlayerView(playerView:<wbr>didFailWithError:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -142,7 +157,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didFailWithError</span><span class="p">(</span><span class="nv">error</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">,</span> <span class="n">didFailWithError</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
 
                         </div>
                       </div>
@@ -150,6 +165,18 @@
                         <h4>Parameters</h4>
                         <table class="graybox">
                           <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
                             <tr>
                               <td>
                                 <code>
@@ -171,9 +198,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerMediaClipLoadedWithData:"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerMediaClipLoaded(data:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerMediaClipLoadedWithData:">didTriggerMediaClipLoaded(data:<wbr>)</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didTriggerMediaClipLoaded:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(playerView:didTriggerMediaClipLoaded:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didTriggerMediaClipLoaded:">bbNativePlayerView(playerView:<wbr>didTriggerMediaClipLoaded:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -189,7 +216,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerMediaClipLoaded</span><span class="p">(</span><span class="nv">data</span><span class="p">:</span> <span class="kt">MediaClip</span><span class="p">)</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">,</span> <span class="n">didTriggerMediaClipLoaded</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">MediaClip</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -197,6 +224,18 @@
                         <h4>Parameters</h4>
                         <table class="graybox">
                           <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
                             <tr>
                               <td>
                                 <code>
@@ -219,9 +258,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerViewStarted"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerViewStarted()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerViewStarted">didTriggerViewStarted()</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerViewStarted:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerViewStarted:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerViewStarted:">bbNativePlayerView(didTriggerViewStarted:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -237,9 +276,28 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerViewStarted</span><span class="p">()</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerViewStarted</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -247,9 +305,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerViewFinished"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerViewFinished()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerViewFinished">didTriggerViewFinished()</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerViewFinished:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerViewFinished:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerViewFinished:">bbNativePlayerView(didTriggerViewFinished:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -265,9 +323,28 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerViewFinished</span><span class="p">()</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerViewFinished</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -275,9 +352,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerProjectLoadedWithData:"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerProjectLoaded(data:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerProjectLoadedWithData:">didTriggerProjectLoaded(data:<wbr>)</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didTriggerProjectLoaded:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(playerView:didTriggerProjectLoaded:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didTriggerProjectLoaded:">bbNativePlayerView(playerView:<wbr>didTriggerProjectLoaded:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -293,7 +370,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerProjectLoaded</span><span class="p">(</span><span class="nv">data</span><span class="p">:</span> <span class="kt">Project</span><span class="p">)</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">,</span> <span class="n">didTriggerProjectLoaded</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">Project</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -301,6 +378,18 @@
                         <h4>Parameters</h4>
                         <table class="graybox">
                           <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
                             <tr>
                               <td>
                                 <code>
@@ -323,9 +412,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerCanPlay"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerCanPlay()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerCanPlay">didTriggerCanPlay()</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerCanPlay:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerCanPlay:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerCanPlay:">bbNativePlayerView(didTriggerCanPlay:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -341,9 +430,28 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerCanPlay</span><span class="p">()</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerCanPlay</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -351,9 +459,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerDurationChangeWithDuration:"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerDurationChange(duration:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerDurationChangeWithDuration:">didTriggerDurationChange(duration:<wbr>)</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didTriggerDurationChange:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(playerView:didTriggerDurationChange:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didTriggerDurationChange:">bbNativePlayerView(playerView:<wbr>didTriggerDurationChange:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -369,9 +477,28 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerDurationChange</span><span class="p">(</span><span class="nv">duration</span><span class="p">:</span> <span class="kt">Double</span><span class="p">)</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">,</span> <span class="n">didTriggerDurationChange</span> <span class="nv">duration</span><span class="p">:</span> <span class="kt">Double</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -379,9 +506,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerPlay"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerPlay()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerPlay">didTriggerPlay()</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerPlay:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerPlay:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerPlay:">bbNativePlayerView(didTriggerPlay:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -397,9 +524,28 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerPlay</span><span class="p">()</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerPlay</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -407,9 +553,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerPause"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerPause()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerPause">didTriggerPause()</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerPause:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerPause:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerPause:">bbNativePlayerView(didTriggerPause:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -425,9 +571,28 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerPause</span><span class="p">()</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerPause</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -435,9 +600,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerAutoPause"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerAutoPause()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerAutoPause">didTriggerAutoPause()</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAutoPause:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerAutoPause:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAutoPause:">bbNativePlayerView(didTriggerAutoPause:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -453,9 +618,28 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerAutoPause</span><span class="p">()</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerAutoPause</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -463,9 +647,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerAutoPausePlay"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerAutoPausePlay()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerAutoPausePlay">didTriggerAutoPausePlay()</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAutoPausePlay:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerAutoPausePlay:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAutoPausePlay:">bbNativePlayerView(didTriggerAutoPausePlay:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -481,9 +665,28 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerAutoPausePlay</span><span class="p">()</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerAutoPausePlay</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -491,9 +694,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerPlaying"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerPlaying()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerPlaying">didTriggerPlaying()</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerPlaying:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerPlaying:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerPlaying:">bbNativePlayerView(didTriggerPlaying:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -509,9 +712,28 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerPlaying</span><span class="p">()</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerPlaying</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -519,9 +741,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerEnded"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerEnded()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerEnded">didTriggerEnded()</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerEnded:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerEnded:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerEnded:">bbNativePlayerView(didTriggerEnded:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -537,9 +759,28 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerEnded</span><span class="p">()</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerEnded</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -547,9 +788,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerSeeking"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerSeeking()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerSeeking">didTriggerSeeking()</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerSeeking:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerSeeking:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerSeeking:">bbNativePlayerView(didTriggerSeeking:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -565,9 +806,28 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerSeeking</span><span class="p">()</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerSeeking</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -575,9 +835,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerSeekedWithSeekOffset:"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerSeeked(seekOffset:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerSeekedWithSeekOffset:">didTriggerSeeked(seekOffset:<wbr>)</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didTriggerSeeked:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(playerView:didTriggerSeeked:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didTriggerSeeked:">bbNativePlayerView(playerView:<wbr>didTriggerSeeked:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -593,7 +853,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerSeeked</span><span class="p">(</span><span class="nv">seekOffset</span><span class="p">:</span> <span class="kt">Double</span><span class="p">)</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">,</span> <span class="n">didTriggerSeeked</span> <span class="nv">seekOffset</span><span class="p">:</span> <span class="kt">Double</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -601,6 +861,18 @@
                         <h4>Parameters</h4>
                         <table class="graybox">
                           <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
                             <tr>
                               <td>
                                 <code>
@@ -622,9 +894,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerStall"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerStall()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerStall">didTriggerStall()</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerStall:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerStall:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerStall:">bbNativePlayerView(didTriggerStall:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -640,9 +912,28 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerStall</span><span class="p">()</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerStall</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -650,9 +941,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerMediaClipFailed"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerMediaClipFailed()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerMediaClipFailed">didTriggerMediaClipFailed()</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerMediaClipFailed:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerMediaClipFailed:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerMediaClipFailed:">bbNativePlayerView(didTriggerMediaClipFailed:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -668,35 +959,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerMediaClipFailed</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerAdErrorWithError:"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerAdError(error:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerAdErrorWithError:">didTriggerAdError(error:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The advertisment provider encountered an error which prevents the ad from playing in the player.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerAdError</span><span class="p">(</span><span class="nv">error</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerMediaClipFailed</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -707,12 +970,12 @@
                             <tr>
                               <td>
                                 <code>
-                                <em>error</em>
+                                <em>playerView</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>String</p>
+                                  <p>UIView</p>
                                 </div>
                               </td>
                             </tr>
@@ -725,9 +988,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerPhaseChangeWithPhase:"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerPhaseChange(phase:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerPhaseChangeWithPhase:">didTriggerPhaseChange(phase:<wbr>)</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didTriggerPhaseChange:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(playerView:didTriggerPhaseChange:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didTriggerPhaseChange:">bbNativePlayerView(playerView:<wbr>didTriggerPhaseChange:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -743,7 +1006,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerPhaseChange</span><span class="p">(</span><span class="nv">phase</span><span class="p">:</span> <span class="kt">Phase</span><span class="p">?)</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">,</span> <span class="n">didTriggerPhaseChange</span> <span class="nv">phase</span><span class="p">:</span> <span class="kt">Phase</span><span class="p">?)</span></code></pre>
 
                         </div>
                       </div>
@@ -751,6 +1014,18 @@
                         <h4>Parameters</h4>
                         <table class="graybox">
                           <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
                             <tr>
                               <td>
                                 <code>
@@ -773,9 +1048,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerStateChangeWithState:"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerStateChange(state:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerStateChangeWithState:">didTriggerStateChange(state:<wbr>)</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didTriggerStateChange:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(playerView:didTriggerStateChange:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didTriggerStateChange:">bbNativePlayerView(playerView:<wbr>didTriggerStateChange:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -791,7 +1066,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerStateChange</span><span class="p">(</span><span class="nv">state</span><span class="p">:</span> <span class="kt">State</span><span class="p">?)</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">,</span> <span class="n">didTriggerStateChange</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">State</span><span class="p">?)</span></code></pre>
 
                         </div>
                       </div>
@@ -799,6 +1074,18 @@
                         <h4>Parameters</h4>
                         <table class="graybox">
                           <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
                             <tr>
                               <td>
                                 <code>
@@ -821,9 +1108,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerModeChangeWithMode:"></a>
-                    <a name="//apple_ref/swift/Method/didTriggerModeChange(mode:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)didTriggerModeChangeWithMode:">didTriggerModeChange(mode:<wbr>)</a>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didTriggerModeChange:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(playerView:didTriggerModeChange:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didTriggerModeChange:">bbNativePlayerView(playerView:<wbr>didTriggerModeChange:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -839,7 +1126,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didTriggerModeChange</span><span class="p">(</span><span class="nv">mode</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">,</span> <span class="n">didTriggerModeChange</span> <span class="nv">mode</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
 
                         </div>
                       </div>
@@ -847,6 +1134,18 @@
                         <h4>Parameters</h4>
                         <table class="graybox">
                           <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
                             <tr>
                               <td>
                                 <code>
@@ -866,13 +1165,542 @@
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidRequestCollapse:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didRequestCollapse:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidRequestCollapse:">bbNativePlayerView(didRequestCollapse:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The player is requesting a collapse, handle code appropriately</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didRequestCollapse</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidRequestExpand:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didRequestExpand:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidRequestExpand:">bbNativePlayerView(didRequestExpand:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The player is requesting an expand, handle code appropriately</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didRequestExpand</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAdLoaded:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerAdLoaded:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAdLoaded:">bbNativePlayerView(didTriggerAdLoaded:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An ad was loaded</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerAdLoaded</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAdNotFound:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerAdNotFound:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAdNotFound:">bbNativePlayerView(didTriggerAdNotFound:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An ad was not found</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerAdNotFound</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didTriggerAdError:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(playerView:didTriggerAdError:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithPlayerView:didTriggerAdError:">bbNativePlayerView(playerView:<wbr>didTriggerAdError:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The advertisment provider encountered an error which prevents the ad from playing in the player.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">,</span> <span class="n">didTriggerAdError</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAdStarted:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerAdStarted:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAdStarted:">bbNativePlayerView(didTriggerAdStarted:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An ad was started</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerAdStarted</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAdQuartile1:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerAdQuartile1:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAdQuartile1:">bbNativePlayerView(didTriggerAdQuartile1:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An ad reached the first quartile</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerAdQuartile1</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAdQuartile2:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerAdQuartile2:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAdQuartile2:">bbNativePlayerView(didTriggerAdQuartile2:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An ad reached the second quartile</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerAdQuartile2</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAdQuartile3:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerAdQuartile3:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAdQuartile3:">bbNativePlayerView(didTriggerAdQuartile3:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An ad reached the third quartile</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerAdQuartile3</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAdFinished:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerAdFinished:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAdFinished:">bbNativePlayerView(didTriggerAdFinished:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An ad finished</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerAdFinished</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAllAdsCompleted:"></a>
+                    <a name="//apple_ref/swift/Method/bbNativePlayerView(didTriggerAllAdsCompleted:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BBNativePlayerKit@objc(pl)BBNativePlayerViewDelegate(im)bbNativePlayerViewWithDidTriggerAllAdsCompleted:">bbNativePlayerView(didTriggerAllAdsCompleted:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An ads have finished</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">bbNativePlayerView</span><span class="p">(</span><span class="n">didTriggerAllAdsCompleted</span> <span class="nv">playerView</span><span class="p">:</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="noopener" rel="external"></a>. All rights reserved. (Last updated: 2021-09-21)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="noopener" rel="external">jazzy ♪♫ v0.14.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="noopener" rel="external">Realm</a> project.</p>
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-11-23)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>

@@ -108,6 +108,8 @@ public class MainActivity extends AppCompatActivity {
         playerContainer = findViewById(R.id.player_container);
 
         playerView = BBNativePlayer.Companion.createPlayerView(this, "https://demo.bbvms.com/p/native_sdk_inoutview/c/4256635.json", null);
+	
+	playerContainer.addView(playerView);
     }
 }
 </code></pre>
@@ -133,6 +135,8 @@ class MainActivity : AppCompatActivity() {
         playerContainer = findViewById&lt;LinearLayout&gt;(R.id.player_container)
 
         playerView = BBNativePlayer.createPlayerView(this, "https://demo.bbvms.com/p/native_sdk_inoutview/c/4256635.json")
+	
+	playerContainer.addView(playerView)
     }
 }
 </code></pre>

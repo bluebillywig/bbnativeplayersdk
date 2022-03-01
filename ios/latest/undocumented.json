@@ -1,124 +1,138 @@
 {
   "warnings": [
     {
-      "file": "/Users/florisgroenendijk/Projects/bbnativekit/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/AdController.swift",
-      "line": 135,
+      "file": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/AdController.swift",
+      "line": 134,
       "symbol": "AdController.onEvent(eventType:data:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/florisgroenendijk/Projects/bbnativekit/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/AdController.swift",
-      "line": 162,
+      "file": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/AdController.swift",
+      "line": 161,
       "symbol": "AdController.adsLoader(_:adsLoadedWith:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/florisgroenendijk/Projects/bbnativekit/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/AdController.swift",
-      "line": 171,
+      "file": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/AdController.swift",
+      "line": 170,
       "symbol": "AdController.adsLoader(_:failedWith:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/florisgroenendijk/Projects/bbnativekit/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/AdController.swift",
-      "line": 177,
+      "file": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/AdController.swift",
+      "line": 176,
       "symbol": "AdController.adsManager(_:didReceive:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/florisgroenendijk/Projects/bbnativekit/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/AdController.swift",
-      "line": 256,
+      "file": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/AdController.swift",
+      "line": 255,
       "symbol": "AdController.adsManager(_:didReceive:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/florisgroenendijk/Projects/bbnativekit/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/AdController.swift",
-      "line": 263,
+      "file": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/AdController.swift",
+      "line": 262,
       "symbol": "AdController.adsManagerDidRequestContentPause(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/florisgroenendijk/Projects/bbnativekit/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/AdController.swift",
-      "line": 272,
+      "file": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/AdController.swift",
+      "line": 271,
       "symbol": "AdController.adsManagerDidRequestContentResume(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/florisgroenendijk/Projects/bbnativekit/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/MediaController.swift",
+      "file": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/MediaController.swift",
       "line": 169,
       "symbol": "MediaController.load(mediaUrl:seekPosition:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/florisgroenendijk/Projects/bbnativekit/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/MediaController.swift",
+      "file": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/MediaController.swift",
       "line": 194,
       "symbol": "MediaController.set(propertyName:propertyValue:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/florisgroenendijk/Projects/bbnativekit/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/MediaController.swift",
+      "file": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/MediaController.swift",
       "line": 207,
       "symbol": "MediaController.play(requested:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/florisgroenendijk/Projects/bbnativekit/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/MediaController.swift",
+      "file": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Controllers/MediaController.swift",
       "line": 220,
       "symbol": "MediaController.pause(requested:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/florisgroenendijk/Projects/bbnativekit/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Views/BBNativePlayerView+API.swift",
-      "line": 644,
+      "file": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Helpers/BBNativePlayerAPI.swift",
+      "line": 12,
+      "symbol": "BBNativePlayerAPI",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Views/BBNativePlayerView+API.swift",
+      "line": 646,
       "symbol": "BBNativePlayerViewDelegate",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/florisgroenendijk/Projects/bbnativekit/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Views/BigPlayButtonView.swift",
+      "file": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Views/BBNativePlayerView.swift",
+      "line": 21,
+      "symbol": "BBNativePlayerView.player",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Views/BigPlayButtonView.swift",
       "line": 73,
       "symbol": "BigPlayButtonView.onEvent(eventType:data:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/florisgroenendijk/Projects/bbnativekit/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Views/ErrorScreenView.swift",
+      "file": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Views/ErrorScreenView.swift",
       "line": 66,
       "symbol": "ErrorScreenView.onEvent(eventType:data:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/florisgroenendijk/Projects/bbnativekit/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Views/ExitScreenView.swift",
-      "line": 116,
+      "file": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Views/ExitScreenView.swift",
+      "line": 123,
       "symbol": "ExitScreenView.onEvent(eventType:data:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/florisgroenendijk/Projects/bbnativekit/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Views/InitScreenView.swift",
-      "line": 224,
+      "file": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Views/InitScreenView.swift",
+      "line": 235,
       "symbol": "InitScreenView.onEvent(eventType:data:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/florisgroenendijk/Projects/bbnativekit/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Views/StartScreenView.swift",
+      "file": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit/BBNativePlayerKit/Views/StartScreenView.swift",
       "line": 136,
       "symbol": "StartScreenView.onEvent(eventType:data:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     }
   ],
-  "source_directory": "/Users/florisgroenendijk/Projects/bbnativekit/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit"
+  "source_directory": "/Users/Olaf/Documents/Projects/BlueBillywig/bbnativeplayerkit-swift/bbnativeplayerkit-swift/BBNativePlayerKit"
 }
