@@ -19,29 +19,29 @@ pre code {
 <h2>Outstream</h2>
 <p>
 When creating a player view, you supply a json embed URL and (optionally) an options dictionary. 
-The json URL is similar to Blue Billywig’s standard outstream embed URL. Its only difference is the .json extension, 
+The json URL is similar to Blue Billywig&rsquo;s standard outstream embed URL. Its only difference is the .json extension, 
 e.g. https://demo.bbvms.com/a/native_sdk_outstream.json
 </p><p>
 A helper function exists for constructing it: 
-createJsonEmbedUrl(baseUrl: "demo.bbvms.com", appIndicator: "a", appId: "native_sdk_outstream")
+<pre><code>createJsonEmbedUrl(baseUrl: &quot;demo.bbvms.com&quot;, appIndicator: &quot;a&quot;, appId: &quot;native_sdk_outstream&quot;)</code></pre>
 </p><p>
-If the outstream ad needs to start collapsed and/or collapse on end, as per the adunit's (root-) settings, 
-this has to be allowed explicitly via embed option 'allowCollapseExpand' = true.
+If the outstream ad needs to start collapsed and/or collapse on end, as per the adunit&rsquo;s (root-) settings, 
+this has to be allowed explicitly via embed option &lsquo;allowCollapseExpand&rsquo; = true.
 Furthermore, the enclosing view needs to be unconstrained in the vertical direction; 
-   android:layout_height="wrap_content" and
+   android:layout_height=&quot;wrap_content&quot; and
    at most one of app:layout_constraintTop, app:layout_constraintBottom
 </p>
 <h3>Unsupported</h3>
 <p>
 Some of the features of our web-based outstream offering are not (yet) supported in Native. For instance: <ul>
-<li>Mouse-in action & Mouse-out action</li>
+<li>Mouse-in action &amp; Mouse-out action</li>
 <li>Passback code</li>
-<li>Placement options, incl. 'Wait for CMP response'</li>
+<li>Placement options, incl. &lsquo;Wait for CMP response&rsquo;</li>
 <li>Prebid</li>
 </ul></p>
 
 <h2>Pseudo-outstream</h2>
-<ul><i>Click-To-Play & Ad-Only-AutoPlay</i></ul>
+<ul><i>Click-To-Play &amp; Ad-Only-AutoPlay</i></ul>
 <p>
 Again, when creating a player view, you supply a json embed URL and (optionally) an options dictionary. 
 The json URL is similar to Blue Billywig’s standard player embed URL. Its only difference is the .json extension, 
@@ -49,7 +49,7 @@ e.g. https://demo.bbvms.com/p/default_standard/c/2431946.json .
 Thus, it supports various content types (clip, playlist, project), and playout configurations.
 </p><p>
 A helper function exists for constructing it: 
-createJsonEmbedUrl(baseUrl: "demo.bbvms.com", appIndicator: "p", appId: "default_standard", contentIndicator: "c", contentId: "2431946")
+<pre><code>createJsonEmbedUrl(baseUrl: &quot;demo.bbvms.com&quot;, appIndicator: &quot;p&quot;, appId: &quot;default_standard&quot;, contentIndicator: &quot;c&quot;, contentId: &quot;2431946&quot;)</code></pre>
 </p>
 <h3>Unsupported</h3>
 <p>
