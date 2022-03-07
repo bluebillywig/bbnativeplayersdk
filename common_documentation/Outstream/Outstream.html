@@ -30,6 +30,15 @@ this has to be allowed explicitly via embed option &lsquo;allowCollapseExpand&rs
 Furthermore, the enclosing view needs to be unconstrained in the vertical direction; 
    android:layout_height=&quot;wrap_content&quot; and
    at most one of app:layout_constraintTop, app:layout_constraintBottom
+</p><p>
+Other options that are relevant:
+<ul>
+<li>adsystem_buid: app bundle id</li>
+<li>adsystem_rdid: resettable device identifier</li>
+<li>adsystem_idtype: identifier type (&quot;idfa&quot; for iOS, &quot;adid&quot; for Android)</li>
+<li>adsystem_is_lat: limit ad tracking (Boolean)</li>
+<li>adsystem_ppid: publisher-provided id</li>
+</ul>
 </p>
 <h3>Unsupported</h3>
 <p>
@@ -50,6 +59,15 @@ Thus, it supports various content types (clip, playlist, project), and playout c
 </p><p>
 A helper function exists for constructing it: 
 <pre><code>createJsonEmbedUrl(baseUrl: &quot;demo.bbvms.com&quot;, appIndicator: &quot;p&quot;, appId: &quot;default_standard&quot;, contentIndicator: &quot;c&quot;, contentId: &quot;2431946&quot;)</code></pre>
+</p><p>
+Other options that are relevant:
+<ul>
+<li>adsystem_buid: app bundle id</li>
+<li>adsystem_rdid: resettable device identifier</li>
+<li>adsystem_idtype: identifier type (&quot;idfa&quot; for iOS, &quot;adid&quot; for Android)</li>
+<li>adsystem_is_lat: limit ad tracking (Boolean)</li>
+<li>adsystem_ppid: publisher-provided id</li>
+</ul>
 </p>
 <h3>Unsupported</h3>
 <p>
