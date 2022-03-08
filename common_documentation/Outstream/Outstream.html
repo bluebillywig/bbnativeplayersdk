@@ -23,7 +23,7 @@ The json URL is similar to Blue Billywig&rsquo;s standard outstream embed URL. I
 e.g. https://demo.bbvms.com/a/native_sdk_outstream.json
 </p><p>
 A helper function exists for constructing it: 
-<pre><code>createJsonEmbedUrl(baseUrl: &quot;demo.bbvms.com&quot;, appIndicator: &quot;a&quot;, appId: &quot;native_sdk_outstream&quot;)</code></pre>
+<pre><code>BBNativePlayer.createJsonEmbedUrl(baseUrl: &quot;demo.bbvms.com&quot;, appIndicator: &quot;a&quot;, appId: &quot;native_sdk_outstream&quot;)</code></pre>
 </p><p>
 If the outstream ad needs to start collapsed and/or collapse on end, as per the adunit&rsquo;s (root-) settings, 
 this has to be allowed explicitly via embed option &lsquo;allowCollapseExpand&rsquo; = true.
@@ -58,7 +58,7 @@ e.g. https://demo.bbvms.com/p/default_standard/c/2431946.json .
 Thus, it supports various content types (clip, playlist, project), and playout configurations.
 </p><p>
 A helper function exists for constructing it: 
-<pre><code>createJsonEmbedUrl(baseUrl: &quot;demo.bbvms.com&quot;, appIndicator: &quot;p&quot;, appId: &quot;default_standard&quot;, contentIndicator: &quot;c&quot;, contentId: &quot;2431946&quot;)</code></pre>
+<pre><code>BBNativePlayer.createJsonEmbedUrl(baseUrl: &quot;demo.bbvms.com&quot;, appIndicator: &quot;p&quot;, appId: &quot;default_standard&quot;, contentIndicator: &quot;c&quot;, contentId: &quot;2431946&quot;)</code></pre>
 </p><p>
 Other options that are relevant:
 <ul>
