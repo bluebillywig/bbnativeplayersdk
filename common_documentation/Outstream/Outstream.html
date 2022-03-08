@@ -31,7 +31,9 @@ Furthermore, the enclosing view needs to be unconstrained in the vertical direct
    android:layout_height=&quot;wrap_content&quot; and
    at most one of app:layout_constraintTop, app:layout_constraintBottom
 </p><p>
-Other options that are relevant:
+Some applications may require the ad's media dimensions. Therefore, upon receiving <code>didTriggerAdLoaded</code>, the properties adMediaWidth &amp; adMediaHeight can be retrieved, either directly from the player view via <code>getApiProperty</code>, or from the player API.
+</p><p>
+Other options that are relevant to pass in:
 <ul>
 <li>adsystem_buid: app bundle id</li>
 <li>adsystem_rdid: resettable device identifier</li>
