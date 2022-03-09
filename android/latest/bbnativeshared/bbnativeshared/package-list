@@ -37,6 +37,12 @@ $dokka.location:com.bluebillywig.bbnativeshared.enums/ApiMethod.seek///PointingT
 $dokka.location:com.bluebillywig.bbnativeshared.enums/ApiMethod.seek/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-method/seek/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/ApiMethod.seek/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-method/seek/ordinal.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/ApiMethod///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-method/index.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/ApiProperty.adMediaHeight///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-property/ad-media-height/index.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/ApiProperty.adMediaHeight/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-property/ad-media-height/name.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/ApiProperty.adMediaHeight/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-property/ad-media-height/ordinal.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/ApiProperty.adMediaWidth///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-property/ad-media-width/index.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/ApiProperty.adMediaWidth/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-property/ad-media-width/name.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/ApiProperty.adMediaWidth/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-property/ad-media-width/ordinal.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/ApiProperty.clipData///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-property/clip-data/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/ApiProperty.clipData/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-property/clip-data/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/ApiProperty.clipData/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-property/clip-data/ordinal.html
