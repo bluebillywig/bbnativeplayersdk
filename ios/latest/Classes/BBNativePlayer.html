@@ -17,7 +17,7 @@
     <a title="BBNativePlayer Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (77% documented)</p>
+        <p><a href="../index.html"> Docs</a> (79% documented)</p>
         <p class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -79,9 +79,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:17BBNativePlayerKit0aB0C06createB4View5frame7jsonUrl7optionsAA0abE0CSo6CGRectV_SSSDySSypGSgtFZ"></a>
-                    <a name="//apple_ref/swift/Method/createPlayerView(frame:jsonUrl:options:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:17BBNativePlayerKit0aB0C06createB4View5frame7jsonUrl7optionsAA0abE0CSo6CGRectV_SSSDySSypGSgtFZ">createPlayerView(frame:<wbr>jsonUrl:<wbr>options:<wbr>)</a>
+                    <a name="/s:17BBNativePlayerKit0aB0C06createB4View02uiE10Controller5frame7jsonUrl7optionsAA0abE0CSo06UIViewG0C_So6CGRectVSSSDySSypGSgtFZ"></a>
+                    <a name="//apple_ref/swift/Method/createPlayerView(uiViewController:frame:jsonUrl:options:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17BBNativePlayerKit0aB0C06createB4View02uiE10Controller5frame7jsonUrl7optionsAA0abE0CSo06UIViewG0C_So6CGRectVSSSDySSypGSgtFZ">createPlayerView(uiViewController:<wbr>frame:<wbr>jsonUrl:<wbr>options:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -89,14 +89,29 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Creates a BBNativePlayerView to be used</p>
+                        <p>Creates a BBNativePlayerView</p>
+
+<ul>
+<li>Options:</li>
+<li><strong>&ldquo;adsystem_ppid&rdquo;: String</strong>       used to fill the ppid for google IMA</li>
+<li><strong>&ldquo;adsystem_buid&rdquo;: String</strong>       used for adsystem macro replacement</li>
+<li><strong>&ldquo;adsystem_rdid&rdquo;:  String</strong>       used for adsystem macro replacement</li>
+<li><strong>&ldquo;adsystem_idtype&rdquo;: String</strong>    used for adsystem macro replacement</li>
+<li><strong>&ldquo;adsystem_is_lat&rdquo;: Bool</strong>       used for adsystem macro replacement</li>
+<li><strong>&ldquo;noStats&rdquo;: Bool</strong>                     disables statistics logging when true, overrides playout setting</li>
+<li><strong>&ldquo;commercials&rdquo;: Bool</strong>             allow commercials, overrides playout setting</li>
+<li><strong>&ldquo;allowCollapseExpand&rdquo;: Bool</strong>             honour collapse / expand requests</li>
+<li><strong>&ldquo;autoPlay&rdquo;: Bool</strong>             auto play, overrides playout setting</li>
+<li><strong>&ldquo;noChromeCast&rdquo;: Bool</strong>             disables chromeCast functionality when true, overrides playout setting castButton</li>
+<li><p><strong>&ldquo;showChromeCastMiniControlsInPlayer&rdquo;: Bool</strong>             (default false) Shows the ChromeCast MiniControls in the player when needed</p></li>
+</ul>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">createPlayerView</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">,</span> <span class="nv">jsonUrl</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">createPlayerView</span><span class="p">(</span><span class="nv">uiViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">,</span> <span class="nv">jsonUrl</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span></code></pre>
 
                         </div>
                       </div>
@@ -137,15 +152,6 @@
                               <td>
                                 <div>
                                   <p>A dictionary with options to send to the player st creation.</p>
-
-<ul>
-<li><strong>&ldquo;adsystem_ppid&rdquo;: String</strong>       used to fill the ppid for google IMA</li>
-<li><strong>&ldquo;adsystem_buid&rdquo;: String</strong>       used for adsystem macro replacement</li>
-<li><strong>&ldquo;adsystem_rdid&rdquo;:  String</strong>       used for adsystem macro replacement</li>
-<li><strong>&ldquo;adsystem_idtype&rdquo;: String</strong>    used for adsystem macro replacement</li>
-<li><strong>&ldquo;adsystem_is_lat&rdquo;: Bool</strong>       used for adsystem macro replacement</li>
-<li><strong>&ldquo;noStats&rdquo;: Bool</strong>                     disables statistics logging when true</li>
-</ul>
                                 </div>
                               </td>
                             </tr>
@@ -162,9 +168,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:17BBNativePlayerKit0aB0C06createB4View5frame7jsonUrlAA0abE0CSo6CGRectV_SStFZ"></a>
-                    <a name="//apple_ref/swift/Method/createPlayerView(frame:jsonUrl:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:17BBNativePlayerKit0aB0C06createB4View5frame7jsonUrlAA0abE0CSo6CGRectV_SStFZ">createPlayerView(frame:<wbr>jsonUrl:<wbr>)</a>
+                    <a name="/s:17BBNativePlayerKit0aB0C06createB4View02uiE10Controller5frame7jsonUrlAA0abE0CSo06UIViewG0C_So6CGRectVSStFZ"></a>
+                    <a name="//apple_ref/swift/Method/createPlayerView(uiViewController:frame:jsonUrl:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17BBNativePlayerKit0aB0C06createB4View02uiE10Controller5frame7jsonUrlAA0abE0CSo06UIViewG0C_So6CGRectVSStFZ">createPlayerView(uiViewController:<wbr>frame:<wbr>jsonUrl:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -172,14 +178,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Creates a BBNativePlayerView to be used</p>
+                        <p>Creates a BBNativePlayerView</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">createPlayerView</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">,</span> <span class="nv">jsonUrl</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">createPlayerView</span><span class="p">(</span><span class="nv">uiViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">,</span> <span class="nv">jsonUrl</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/BBNativePlayerView.html">BBNativePlayerView</a></span></code></pre>
 
                         </div>
                       </div>
@@ -236,6 +242,21 @@
                       <div class="abstract">
                         <p>Creates a BBNativePlayerView and presents it as a full screen modal</p>
 
+<ul>
+<li>Options:</li>
+<li><strong>&ldquo;adsystem_ppid&rdquo;: String</strong>       used to fill the ppid for google IMA</li>
+<li><strong>&ldquo;adsystem_buid&rdquo;: String</strong>       used for adsystem macro replacement</li>
+<li><strong>&ldquo;adsystem_rdid&rdquo;:  String</strong>       used for adsystem macro replacement</li>
+<li><strong>&ldquo;adsystem_idtype&rdquo;: String</strong>    used for adsystem macro replacement</li>
+<li><strong>&ldquo;adsystem_is_lat&rdquo;: Bool</strong>       used for adsystem macro replacement</li>
+<li><strong>&ldquo;noStats&rdquo;: Bool</strong>                     disables statistics logging when true, overrides playout setting</li>
+<li><strong>&ldquo;commercials&rdquo;: Bool</strong>             allow commercials, overrides playout setting</li>
+<li><strong>&ldquo;allowCollapseExpand&rdquo;: Bool</strong>             honour collapse / expand requests</li>
+<li><strong>&ldquo;autoPlay&rdquo;: Bool</strong>             auto play, overrides playout setting</li>
+<li><strong>&ldquo;noChromeCast&rdquo;: Bool</strong>             disables chromeCast functionality when true, overrides playout setting castButton</li>
+<li><p><strong>&ldquo;showChromeCastMiniControlsInPlayer&rdquo;: Bool</strong>             (default false) Shows the ChromeCast MiniControls in the player when needed</p></li>
+</ul>
+
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -282,15 +303,6 @@
                               <td>
                                 <div>
                                   <p>A dictionary with options to send to the player st creation.</p>
-
-<ul>
-<li><strong>&ldquo;adsystem_ppid&rdquo;: String</strong>       used to fill the ppid for google IMA</li>
-<li><strong>&ldquo;adsystem_buid&rdquo;: String</strong>       used for adsystem macro replacement</li>
-<li><strong>&ldquo;adsystem_rdid&rdquo;:  String</strong>       used for adsystem macro replacement</li>
-<li><strong>&ldquo;adsystem_idtype&rdquo;: String</strong>    used for adsystem macro replacement</li>
-<li><strong>&ldquo;adsystem_is_lat&rdquo;: Bool</strong>       used for adsystem macro replacement</li>
-<li><strong>&ldquo;noStats&rdquo;: Bool</strong>                     disables statistics logging when true</li>
-</ul>
                                 </div>
                               </td>
                             </tr>
@@ -366,12 +378,39 @@
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17BBNativePlayerKit0aB0C18createJsonEmbedUrl04baseG012appIndicator0I2Id07contentJ00lK0S2S_S3SSgAJtFZ"></a>
+                    <a name="//apple_ref/swift/Method/createJsonEmbedUrl(baseUrl:appIndicator:appId:contentIndicator:contentId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17BBNativePlayerKit0aB0C18createJsonEmbedUrl04baseG012appIndicator0I2Id07contentJ00lK0S2S_S3SSgAJtFZ">createJsonEmbedUrl(baseUrl:<wbr>appIndicator:<wbr>appId:<wbr>contentIndicator:<wbr>contentId:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create a json embed URL</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">createJsonEmbedUrl</span><span class="p">(</span><span class="nv">baseUrl</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">appIndicator</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">appId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">contentIndicator</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">contentId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-11-23)</p>
+          <p>&copy; 2022 <a class="link" href="https://www.bluebillywig.com" target="_blank" rel="external">Blue Billywig</a>. All rights reserved. (Last updated: 2022-03-10)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
