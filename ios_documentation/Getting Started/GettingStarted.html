@@ -24,18 +24,57 @@ pre code {
 <p>Installing the BlueBillywigNativePlayerKit using CocoaPods<br />CocoaPods is a dependency manager for Xcode projects and is the recommended method for installing the BlueBillywigNativePlayerKit. For more information on installing or using CocoaPods, see the <a href="https://guides.cocoapods.org/">CocoaPods documentation</a>. Once you have CocoaPods installed, use the following instructions to install the IMA SDK:<br />In the same directory as your BBNativePlayerExample.xcodeproject file, create a text file called Podfile, and add the following configuration:</p>
 
 <pre><code>
-platform :ios, '11.0'
+platform :ios, '12.0'
 
 target 'BBNativePlayerExample' do
   # Pods for bbnativeplayerkit-demo
-  pod 'BlueBillywigNativePlayerKit-iOS', '~>0.1.0'
+  pod 'BlueBillywigNativePlayerKit-iOS', '~>7.68'
 end
 </code></pre>
 
 <p>&nbsp;</p>
 <p>From the directory that contains the Podfile, run:<br /><code>pod install --repo-update</code></p>
-<p>This will install the pod 'BlueBillywigNativePlayerKit-iOS' and 2 dependencies, you should see something like this:<br /><em>Installing BlueBillywigNativePlayerKit-iOS (0.1.1)</em><br /><em>Installing BlueBillywigNativeShared-iOS (0.1.1)</em><br /><em>Installing GoogleAds-IMA-iOS-SDK (3.13.0)</em></p>
+<p>This will install the pod 'BlueBillywigNativePlayerKit-iOS' and dependencies, you should see something like this:<br /><em>Installing BlueBillywigNativePlayerKit-iOS (0.1.1)</em><br /><em>Installing BlueBillywigNativeShared-iOS (0.1.1)</em><br /><em>Installing GoogleAds-IMA-iOS-SDK (3.13.0)</em><br /><em>Installing google-cast-sdk-dynamic-ios-bb (4.7.0)</em></p>
 <p>Verify that the installation was successful by opening the BBNativePlayerExample.xcworkspace file and confirming that it contains two projects: BBNativePlayerExample and Pods (the dependencies installed by CocoaPods).<br />if there is a problem installing or updating the pods use this command:<br /><code>pod cache clean --all; rm -rf Podfile.lock Pods; pod install --repo-update</code></p>
+
+
+
+
+
+
+
+
+
+<p><br /><strong>2a. Because the framework might use the GoogleCast framework you have to put the following key/strings to your plist (Apple obligates you to do this if the code reference is there even if you don't want to use ChromeCast)</p></strong>
+
+<pre><code>
+&lt;key&gt;NSBonjourServices&lt;/key&gt;
+&lt;array&gt;
+  &lt;string&gt;_googlecast._tcp&lt;/string&gt;
+  &lt;string&gt;ABCD1234._googlecast._tcp&lt;/string&gt;
+&lt;/array&gt;
+&lt;key&gt;NSBluetoothAlwaysUsageDescription&lt;/key&gt;
+&lt;string&gt;${PRODUCT_NAME} uses Bluetooth to discover nearby Cast devices.&lt;/string&gt;
+&lt;key&gt;NSBluetoothPeripheralUsageDescription&lt;/key&gt;
+&lt;string&gt;${PRODUCT_NAME} uses Bluetooth to discover nearby Cast devices.&lt;/string&gt;    
+&lt;key&gt;NSMicrophoneUsageDescription&lt;/key&gt;
+&lt;string&gt;${PRODUCT_NAME} uses microphone access to listen for ultrasonic tokens
+when pairing with nearby Cast devices.&lt;/string&gt;
+</code></pre>
+
+Where "ABCD1234" is your appId. 
+
+The fastest way to find this string is to put in:
+----._googlecast._tcp
+Then run your app and embed a player
+Look for the Log line "....._googlecast._tcp is missing in values associated with the key NSBonjourServices in info.plist"
+This will tell you the String that is missing. Change it into that.
+
+
+
+
+
+
 
 <p><br /><strong>3. Import the BBNativePlayerKit</strong><br />Next, add the BBNativePlayerKit framework to the ViewController using an import statement beneath the existing imports.</p>
 <pre><code>
@@ -54,7 +93,7 @@ override func viewDidLoad() {
     super.viewDidLoad()
     
     // create player view using the embed url
-    bbPlayerView = BBNativePlayer.createPlayerView(frame: view.frame, jsonUrl: "https://bb.dev.bbvms.com/p/default/c/1092747.json")
+    bbPlayerView = BBNativePlayer.createPlayerView(uiViewController: self, frame: view.frame, jsonUrl: "https://bb.dev.bbvms.com/p/default/c/1092747.json")
     
 	// add player to the view
     view.addSubview(bbPlayerView!)
@@ -89,11 +128,11 @@ override func viewDidLoad() {
 
 <pre><code>
 extension ViewController: BBNativePlayerViewDelegate {    
-    func didTriggerPlay() {
-        print("Blue Billlywig Player: didTriggerPlay")
+    func bbNativePlayerView(didTriggerPlaying playerView: BBNativePlayerView) {
+        print("Blue Billlywig Player: didTriggerPlaying")
     }
     
-    func didTriggerPause() {
+    func bbNativePlayerView(didTriggerPause playerView: BBNativePlayerView) {
         print("Blue Billlywig Player: didTriggerPause")
     }
 }
