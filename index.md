@@ -27,4 +27,4 @@ When creating a player view, you supply a json embed URL and (optionally) an opt
 
 ## Common
 
-[Outstream](/bbnativeplayersdk/common_documentation/Outstream/Outstream.md "Outstream")  
+[Outstream](/bbnativeplayersdk/common_documentation/Outstream/Outstream.html "Outstream")  
