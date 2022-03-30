@@ -26,6 +26,18 @@ Other options that are relevant to pass in:
 - adsystem_is_lat: limit ad tracking (Boolean)
 - adsystem_ppid: publisher-provided id
 
+### End screen
+
+When the outstream ad doesn't collapse on end, an end screen will we shown. The end screen will either show a placeholder or a companion ad.
+The companion ad must exist in the VAST and be of type mediumRectangle with the size 300 x 250. If there is no companion ad a placeholder will be shown.
+
+The following AdUnit properties will be used to draw the end screen:
+
+- 'Placeholder background color'
+- 'Placeholder text' - text displayed
+- 'Placeholder text color' - text color (will default to black or white (depending on the background color) if text color is not set)
+
+*Note:* on iOS the placeholder is not tappable as the iOS IMA SDK doesn't expose the clickthrough url of the original ad. Set your placeholder text accordingly.
 ### Unsupported
 
 Some of the features of our web-based outstream offering are not (yet) supported in Native. For instance: 
