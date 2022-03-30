@@ -28,7 +28,7 @@ Other options that are relevant to pass in:
 
 ### End screen
 
-When the outstream ad doesn't collapse on end, an end screen will we shown. The end screen will either show a placeholder or a companion ad.
+When the outstream ad doesn't collapse on end, an end screen will be shown. The end screen will either show a placeholder or a companion ad.
 The companion ad must exist in the VAST and be of type mediumRectangle with the size 300 x 250. If there is no companion ad a placeholder will be shown.
 
 The following AdUnit properties will be used to draw the end screen:
