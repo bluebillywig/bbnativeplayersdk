@@ -14,7 +14,7 @@ When creating a player view, you supply a json embed URL and (optionally) an opt
 
 ## Android
 
-[Getting Started](/bbnativeplayersdk/android_documentation/Getting%20Started/GettingStarted.html "Android Getting Started")  
+[Getting Started](android_documentation/Getting%20Started/GettingStarted.html "Android Getting Started")  
 [Android SDK Reference](/bbnativeplayersdk/android/latest "Android SDK Reference")  
 [Android Demo App](https://github.com/bluebillywig/bbnativeplayersdk-demo "Android Demo App")  
 
