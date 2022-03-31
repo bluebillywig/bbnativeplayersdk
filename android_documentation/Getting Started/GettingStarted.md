@@ -49,6 +49,7 @@ Next, add the bbnativeplayersdk framework to the MainActivity using an import st
     ...
     import com.bluebillywig.bbnativeplayersdk.BBNativePlayer;
     import com.bluebillywig.bbnativeplayersdk.BBNativePlayerView;
+
 ### Kotlin
 
     package com.bluebillywig.bbnativeplayerexample;
@@ -98,6 +99,7 @@ In the onCreate method in the MainActivity add the following code to create a BB
         playerContainer.addView(playerView);
         }
     }
+
 ### Kotlin
 
     package com.bluebillywig.bbnativeplayersdk_test
@@ -136,6 +138,7 @@ For java this will ask if you would want to implement all methods in the BBNativ
             playerView.delegate = this
         }
     }
+
 ### Kotlin
 
     class MainActivity : AppCompatActivity(), BBNativePlayerViewDelegate {
@@ -163,6 +166,7 @@ Just a few methods are implemented here as an example. See the documentation for
         }
         ...
     }
+
 ### Kotlin
 
     class MainActivity : AppCompatActivity(), BBNativePlayerViewDelegate {
