@@ -20,7 +20,7 @@ When creating a player view, you supply a json embed URL and (optionally) an opt
 
 ## iOS
 
-[Getting Started](/bbnativeplayersdk/ios_documentation/Getting%20Started/GettingStarted.html "iOS Getting Started")  
+[Getting Started](ios_documentation/Getting%20Started/GettingStarted.html "iOS Getting Started")  
 [iOS SDK Reference](/bbnativeplayersdk/ios/latest "iOS SDK Reference")  
 [iOS Demo App](https://github.com/bluebillywig/bbnativeplayerkit-demo "iOS Demo App")  
 &ensp;[Know How](https://github.com/bluebillywig/bbnativeplayerkit-demo/tree/master/Documentation/Know%20How "special topics")
