@@ -499,13 +499,6 @@ $dokka.location:com.bluebillywig.bbnativeshared.enums/State.PLAYING///PointingTo
 $dokka.location:com.bluebillywig.bbnativeshared.enums/State.PLAYING/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-state/-p-l-a-y-i-n-g/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/State.PLAYING/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-state/-p-l-a-y-i-n-g/ordinal.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/State///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-state/index.html
-$dokka.location:com.bluebillywig.bbnativeshared.loggers////PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.loggers/index.html
-$dokka.location:com.bluebillywig.bbnativeshared.loggers/StatsLogger.Companion///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.loggers/-stats-logger/-companion/index.html
-$dokka.location:com.bluebillywig.bbnativeshared.loggers/StatsLogger.Companion/TAG/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.loggers/-stats-logger/-companion/-t-a-g.html
-$dokka.location:com.bluebillywig.bbnativeshared.loggers/StatsLogger///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.loggers/-stats-logger/index.html
-$dokka.location:com.bluebillywig.bbnativeshared.loggers/StatsLogger/StatsLogger/#com.bluebillywig.bbnativeshared.interfaces.EventBusInterface?#kotlin.String#kotlin.Boolean/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.loggers/-stats-logger/-stats-logger.html
-$dokka.location:com.bluebillywig.bbnativeshared.loggers/StatsLogger/__destruct/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.loggers/-stats-logger/__destruct.html
-$dokka.location:com.bluebillywig.bbnativeshared.loggers/StatsLogger/setEnabled/#kotlin.Boolean/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.loggers/-stats-logger/set-enabled.html
 $dokka.location:com.bluebillywig.bbnativeshared.model////PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.model//contentItemSerializersModule/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/content-item-serializers-module.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Action///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-action/index.html
@@ -1156,6 +1149,5 @@ $dokka.location:com.bluebillywig.bbnativeshared/RelatedItemsHelper/onEvent/#com.
 com.bluebillywig.bbnativeshared
 com.bluebillywig.bbnativeshared.data
 com.bluebillywig.bbnativeshared.enums
-com.bluebillywig.bbnativeshared.loggers
 com.bluebillywig.bbnativeshared.model
 
