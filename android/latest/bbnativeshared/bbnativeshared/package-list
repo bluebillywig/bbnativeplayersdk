@@ -119,6 +119,9 @@ $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.adThirdQuartile/
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.allAdsCompleted///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/all-ads-completed/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.allAdsCompleted/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/all-ads-completed/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.allAdsCompleted/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/all-ads-completed/ordinal.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.audioTracksChanged///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/audio-tracks-changed/index.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.audioTracksChanged/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/audio-tracks-changed/name.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.audioTracksChanged/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/audio-tracks-changed/ordinal.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.bb_adblock_detection_finished///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/bb_adblock_detection_finished/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.bb_adblock_detection_finished/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/bb_adblock_detection_finished/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.bb_adblock_detection_finished/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/bb_adblock_detection_finished/ordinal.html
@@ -407,6 +410,9 @@ $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.durationchange/o
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.ended///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/ended/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.ended/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/ended/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.ended/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/ended/ordinal.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.fullscreen///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/fullscreen/index.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.fullscreen/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/fullscreen/name.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.fullscreen/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/fullscreen/ordinal.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.loadstart///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/loadstart/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.loadstart/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/loadstart/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.loadstart/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/loadstart/ordinal.html
@@ -416,22 +422,31 @@ $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.pause/ordinal/#/
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.playing///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/playing/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.playing/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/playing/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.playing/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/playing/ordinal.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.qualityTracksChanged///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/quality-tracks-changed/index.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.qualityTracksChanged/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/quality-tracks-changed/name.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.qualityTracksChanged/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/quality-tracks-changed/ordinal.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.requestOpenUrl///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/request-open-url/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.requestOpenUrl/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/request-open-url/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.requestOpenUrl/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/request-open-url/ordinal.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.retractfullscreen///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/retractfullscreen/index.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.retractfullscreen/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/retractfullscreen/name.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.retractfullscreen/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/retractfullscreen/ordinal.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.subtitleTracksChanged///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/subtitle-tracks-changed/index.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.subtitleTracksChanged/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/subtitle-tracks-changed/name.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.subtitleTracksChanged/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/subtitle-tracks-changed/ordinal.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/FitMode.FIT_BOTH///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-fit-mode/-f-i-t_-b-o-t-h/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/FitMode.FIT_BOTH/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-fit-mode/-f-i-t_-b-o-t-h/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/FitMode.FIT_BOTH/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-fit-mode/-f-i-t_-b-o-t-h/ordinal.html
-$dokka.location:com.bluebillywig.bbnativeshared.enums/FitMode.FIT_COVER///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-fit-mode/-f-i-t_-c-o-v-e-r/index.html
-$dokka.location:com.bluebillywig.bbnativeshared.enums/FitMode.FIT_COVER/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-fit-mode/-f-i-t_-c-o-v-e-r/name.html
-$dokka.location:com.bluebillywig.bbnativeshared.enums/FitMode.FIT_COVER/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-fit-mode/-f-i-t_-c-o-v-e-r/ordinal.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/FitMode.FIT_HORIZONTAL///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-fit-mode/-f-i-t_-h-o-r-i-z-o-n-t-a-l/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/FitMode.FIT_HORIZONTAL/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-fit-mode/-f-i-t_-h-o-r-i-z-o-n-t-a-l/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/FitMode.FIT_HORIZONTAL/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-fit-mode/-f-i-t_-h-o-r-i-z-o-n-t-a-l/ordinal.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/FitMode.FIT_NATIVE///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-fit-mode/-f-i-t_-n-a-t-i-v-e/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/FitMode.FIT_NATIVE/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-fit-mode/-f-i-t_-n-a-t-i-v-e/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/FitMode.FIT_NATIVE/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-fit-mode/-f-i-t_-n-a-t-i-v-e/ordinal.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/FitMode.FIT_OVERSCAN///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-fit-mode/-f-i-t_-o-v-e-r-s-c-a-n/index.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/FitMode.FIT_OVERSCAN/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-fit-mode/-f-i-t_-o-v-e-r-s-c-a-n/name.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/FitMode.FIT_OVERSCAN/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-fit-mode/-f-i-t_-o-v-e-r-s-c-a-n/ordinal.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/FitMode.FIT_SMART///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-fit-mode/-f-i-t_-s-m-a-r-t/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/FitMode.FIT_SMART/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-fit-mode/-f-i-t_-s-m-a-r-t/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/FitMode.FIT_SMART/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-fit-mode/-f-i-t_-s-m-a-r-t/ordinal.html
@@ -628,12 +643,13 @@ $dokka.location:com.bluebillywig.bbnativeshared.model/AdUnitPlayout/width/#/Poin
 $dokka.location:com.bluebillywig.bbnativeshared.model/AdUnitPlayout/youTubeHosting/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-ad-unit-playout/you-tube-hosting.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/AdUnitPlayout/youTubeSkinInMainPhase/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-ad-unit-playout/you-tube-skin-in-main-phase.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Audiotrack///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-audiotrack/index.html
-$dokka.location:com.bluebillywig.bbnativeshared.model/Audiotrack/Audiotrack/#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.Long?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.Boolean?/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-audiotrack/-audiotrack.html
+$dokka.location:com.bluebillywig.bbnativeshared.model/Audiotrack/Audiotrack/#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.Long?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.Boolean?#kotlin.Boolean?/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-audiotrack/-audiotrack.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Audiotrack/createdBy/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-audiotrack/created-by.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Audiotrack/createddate/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-audiotrack/createddate.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Audiotrack/exactlength/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-audiotrack/exactlength.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Audiotrack/id/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-audiotrack/id.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Audiotrack/isDefaultLanguage/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-audiotrack/is-default-language.html
+$dokka.location:com.bluebillywig.bbnativeshared.model/Audiotrack/isSelected/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-audiotrack/is-selected.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Audiotrack/isocode/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-audiotrack/isocode.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Audiotrack/label/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-audiotrack/label.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Audiotrack/languageid/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-audiotrack/languageid.html
@@ -708,7 +724,7 @@ $dokka.location:com.bluebillywig.bbnativeshared.model/EventHandler/EventHandler/
 $dokka.location:com.bluebillywig.bbnativeshared.model/EventHandler/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-event-handler/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/EventHandler/procedures/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-event-handler/procedures.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/LineItem_///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-line-item_/index.html
-$dokka.location:com.bluebillywig.bbnativeshared.model/LineItem_/LineItem_/#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.Long?#kotlin.String?#kotlin.collections.Map[kotlin.String,kotlin.String]?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlinx.serialization.json.JsonArray?/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-line-item_/-line-item_.html
+$dokka.location:com.bluebillywig.bbnativeshared.model/LineItem_/LineItem_/#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.Long?#kotlin.String?#kotlin.collections.Map[kotlin.String,kotlin.String?]?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlinx.serialization.json.JsonArray?/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-line-item_/-line-item_.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/LineItem_/code/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-line-item_/code.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/LineItem_/createdBy/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-line-item_/created-by.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/LineItem_/createddate/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-line-item_/createddate.html
@@ -1095,6 +1111,12 @@ $dokka.location:com.bluebillywig.bbnativeshared.model/Publication/type/#/Pointin
 $dokka.location:com.bluebillywig.bbnativeshared.model/Publication/usePreferredPlayMode/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-publication/use-preferred-play-mode.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Publication/useThumbsFromMetadata/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-publication/use-thumbs-from-metadata.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Publication/wsChatEndpoint/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-publication/ws-chat-endpoint.html
+$dokka.location:com.bluebillywig.bbnativeshared.model/Quality///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-quality/index.html
+$dokka.location:com.bluebillywig.bbnativeshared.model/Quality/Quality/#kotlin.String?#kotlin.Int?#kotlin.String?#kotlin.Boolean?/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-quality/-quality.html
+$dokka.location:com.bluebillywig.bbnativeshared.model/Quality/id/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-quality/id.html
+$dokka.location:com.bluebillywig.bbnativeshared.model/Quality/index/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-quality/--index--.html
+$dokka.location:com.bluebillywig.bbnativeshared.model/Quality/isSelected/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-quality/is-selected.html
+$dokka.location:com.bluebillywig.bbnativeshared.model/Quality/label/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-quality/label.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/RequestParams///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-request-params/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/RequestParams/RequestParams/#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-request-params/-request-params.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/RequestParams/contentid/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-request-params/contentid.html
@@ -1109,9 +1131,10 @@ $dokka.location:com.bluebillywig.bbnativeshared.model/Step/id/#/PointingToDeclar
 $dokka.location:com.bluebillywig.bbnativeshared.model/Step/isStart/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-step/is-start.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Step/mediaClipId/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-step/media-clip-id.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Subtitle///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-subtitle/index.html
-$dokka.location:com.bluebillywig.bbnativeshared.model/Subtitle/Subtitle/#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-subtitle/-subtitle.html
+$dokka.location:com.bluebillywig.bbnativeshared.model/Subtitle/Subtitle/#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.Boolean?/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-subtitle/-subtitle.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Subtitle/default/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-subtitle/default.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Subtitle/id/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-subtitle/id.html
+$dokka.location:com.bluebillywig.bbnativeshared.model/Subtitle/isSelected/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-subtitle/is-selected.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Subtitle/isocode/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-subtitle/isocode.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Subtitle/languageid/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-subtitle/languageid.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Subtitle/languagename/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-subtitle/languagename.html
@@ -1133,20 +1156,6 @@ $dokka.location:com.bluebillywig.bbnativeshared.model/VersioningData///PointingT
 $dokka.location:com.bluebillywig.bbnativeshared.model/VersioningData/VersioningData/#kotlin.String?#kotlin.String?/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-versioning-data/-versioning-data.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/VersioningData/state/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-versioning-data/state.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/VersioningData/timelineVersion/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-versioning-data/timeline-version.html
-$dokka.location:com.bluebillywig.bbnativeshared////PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/index.html
-$dokka.location:com.bluebillywig.bbnativeshared/Logger///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/-logger/index.html
-$dokka.location:com.bluebillywig.bbnativeshared/Logger/d/#kotlin.String#kotlin.String/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/-logger/d.html
-$dokka.location:com.bluebillywig.bbnativeshared/Logger/e/#kotlin.String#kotlin.String/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/-logger/e.html
-$dokka.location:com.bluebillywig.bbnativeshared/Logger/w/#kotlin.String#kotlin.String/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/-logger/w.html
-$dokka.location:com.bluebillywig.bbnativeshared/RelatedItemsHelper.Companion///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/-related-items-helper/-companion/index.html
-$dokka.location:com.bluebillywig.bbnativeshared/RelatedItemsHelper.Companion/TAG/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/-related-items-helper/-companion/-t-a-g.html
-$dokka.location:com.bluebillywig.bbnativeshared/RelatedItemsHelper///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/-related-items-helper/index.html
-$dokka.location:com.bluebillywig.bbnativeshared/RelatedItemsHelper/RelatedItemsHelper/#com.bluebillywig.bbnativeshared.interfaces.EventBusInterface?#com.bluebillywig.bbnativeshared.controller.ProgramController?/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/-related-items-helper/-related-items-helper.html
-$dokka.location:com.bluebillywig.bbnativeshared/RelatedItemsHelper/__destruct/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/-related-items-helper/__destruct.html
-$dokka.location:com.bluebillywig.bbnativeshared/RelatedItemsHelper/load/#kotlin.String?/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/-related-items-helper/load.html
-$dokka.location:com.bluebillywig.bbnativeshared/RelatedItemsHelper/network/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/-related-items-helper/network.html
-$dokka.location:com.bluebillywig.bbnativeshared/RelatedItemsHelper/onEvent/#com.bluebillywig.bbnativeshared.enums.EventName#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/-related-items-helper/on-event.html
-com.bluebillywig.bbnativeshared
 com.bluebillywig.bbnativeshared.data
 com.bluebillywig.bbnativeshared.enums
 com.bluebillywig.bbnativeshared.model
