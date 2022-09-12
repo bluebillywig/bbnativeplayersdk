@@ -91,11 +91,5 @@ $dokka.location:com.bluebillywig.bbnativeplayersdk/BBNativePlayerViewDelegate/di
 $dokka.location:com.bluebillywig.bbnativeplayersdk/BBNativePlayerViewDelegate/didTriggerViewStarted/#com.bluebillywig.bbnativeplayersdk.BBNativePlayerView/PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-b-b-native-player-view-delegate/did-trigger-view-started.html
 $dokka.location:com.bluebillywig.bbnativeplayersdk/ChromecastMiniControlsView///PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-chromecast-mini-controls-view/index.html
 $dokka.location:com.bluebillywig.bbnativeplayersdk/ChromecastMiniControlsView/ChromecastMiniControlsView/#android.content.Context#android.util.AttributeSet?#kotlin.Int/PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-chromecast-mini-controls-view/-chromecast-mini-controls-view.html
-$dokka.location:com.bluebillywig.bbnativeplayersdk/SettingsScreenView///PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-settings-screen-view/index.html
-$dokka.location:com.bluebillywig.bbnativeplayersdk/SettingsScreenView/SettingsScreenView/#android.content.Context#android.util.AttributeSet?#kotlin.Int/PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-settings-screen-view/-settings-screen-view.html
-$dokka.location:com.bluebillywig.bbnativeplayersdk/SettingsScreenView/__destruct/#/PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-settings-screen-view/__destruct.html
-$dokka.location:com.bluebillywig.bbnativeplayersdk/SettingsScreenView/eventBus/#/PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-settings-screen-view/event-bus.html
-$dokka.location:com.bluebillywig.bbnativeplayersdk/SettingsScreenView/onEvent/#com.bluebillywig.bbnativeshared.enums.EventName#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-settings-screen-view/on-event.html
-$dokka.location:com.bluebillywig.bbnativeplayersdk/SettingsScreenView/programController/#/PointingToDeclaration/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-settings-screen-view/program-controller.html
 com.bluebillywig.bbnativeplayersdk
 
