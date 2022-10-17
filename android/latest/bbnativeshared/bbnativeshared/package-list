@@ -419,6 +419,9 @@ $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.loadstart/ordina
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.pause///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/pause/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.pause/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/pause/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.pause/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/pause/ordinal.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.playbackSpeedChanged///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/playback-speed-changed/index.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.playbackSpeedChanged/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/playback-speed-changed/name.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.playbackSpeedChanged/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/playback-speed-changed/ordinal.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.playing///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/playing/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.playing/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/playing/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.playing/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/playing/ordinal.html
