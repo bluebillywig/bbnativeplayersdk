@@ -107,6 +107,12 @@ $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.adMidPoint/ordin
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.adNoAd///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/ad-no-ad/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.adNoAd/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/ad-no-ad/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.adNoAd/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/ad-no-ad/ordinal.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.adPaused///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/ad-paused/index.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.adPaused/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/ad-paused/name.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.adPaused/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/ad-paused/ordinal.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.adResumed///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/ad-resumed/index.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.adResumed/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/ad-resumed/name.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.adResumed/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/ad-resumed/ordinal.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.adSkipped///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/ad-skipped/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.adSkipped/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/ad-skipped/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/EventName.adSkipped/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-event-name/ad-skipped/ordinal.html
