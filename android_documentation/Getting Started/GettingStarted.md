@@ -19,7 +19,7 @@ Add com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:&lt;version&gt; to the 
     
     dependencies {
         ....
-        implementation 'com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:7.88.1'
+        implementation 'com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:7.98.0'
         ....
     }
 
@@ -34,7 +34,7 @@ For build.gradle.kts this would be:
     
     dependencies {
         ....
-        implementation("com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:7.88.1")
+        implementation("com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:7.98.0")
         ....
     }
 
@@ -187,7 +187,7 @@ For more information and example code, check out our demo app at [https://github
 
 ## 9. Testing with snapshot version
 
-For example: `com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:7.88-1-SNAPSHOT`  
+For example: `com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:7.98-0-SNAPSHOT`  
 
 To test with a snapshot version with Android gradle plugin 4.2.2 and gradle version 6.7.1  
 

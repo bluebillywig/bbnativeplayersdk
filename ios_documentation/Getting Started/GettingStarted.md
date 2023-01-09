@@ -19,7 +19,7 @@ In the same directory as your BBNativePlayerExample.xcodeproject file, create a 
 
     target 'BBNativePlayerExample' do
     # Pods for bbnativeplayerkit-demo
-    pod 'BlueBillywigNativePlayerKit-iOS', '~>7.68'
+    pod 'BlueBillywigNativePlayerKit-iOS', '~>7.98'
     end
 
 From the directory that contains the Podfile, run:
