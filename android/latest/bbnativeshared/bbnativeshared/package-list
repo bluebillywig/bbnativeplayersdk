@@ -21,6 +21,12 @@ $dokka.location:com.bluebillywig.bbnativeshared.enums/ApiMethod.autoPlayNextCanc
 $dokka.location:com.bluebillywig.bbnativeshared.enums/ApiMethod.collapse///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-method/collapse/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/ApiMethod.collapse/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-method/collapse/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/ApiMethod.collapse/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-method/collapse/ordinal.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/ApiMethod.enterFullScreen///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-method/enter-full-screen/index.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/ApiMethod.enterFullScreen/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-method/enter-full-screen/name.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/ApiMethod.enterFullScreen/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-method/enter-full-screen/ordinal.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/ApiMethod.exitFullScreen///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-method/exit-full-screen/index.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/ApiMethod.exitFullScreen/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-method/exit-full-screen/name.html
+$dokka.location:com.bluebillywig.bbnativeshared.enums/ApiMethod.exitFullScreen/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-method/exit-full-screen/ordinal.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/ApiMethod.expand///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-method/expand/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/ApiMethod.expand/name/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-method/expand/name.html
 $dokka.location:com.bluebillywig.bbnativeshared.enums/ApiMethod.expand/ordinal/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.enums/-api-method/expand/ordinal.html
