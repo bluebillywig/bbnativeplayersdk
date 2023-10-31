@@ -562,7 +562,8 @@ $dokka.location:com.bluebillywig.bbnativeshared.model/Action/entity/#/PointingTo
 $dokka.location:com.bluebillywig.bbnativeshared.model/Action/id/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-action/id.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Action/parameters/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-action/parameters.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/AdSchedulingData///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-ad-scheduling-data/index.html
-$dokka.location:com.bluebillywig.bbnativeshared.model/AdSchedulingData/AdSchedulingData/#kotlin.Int?#kotlin.String?/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-ad-scheduling-data/-ad-scheduling-data.html
+$dokka.location:com.bluebillywig.bbnativeshared.model/AdSchedulingData/AdSchedulingData/#kotlin.Int?#kotlin.String?#kotlin.collections.Map[kotlin.String,kotlin.Array[kotlin.String]]?/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-ad-scheduling-data/-ad-scheduling-data.html
+$dokka.location:com.bluebillywig.bbnativeshared.model/AdSchedulingData/macros/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-ad-scheduling-data/macros.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/AdSchedulingData/scheduleCode/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-ad-scheduling-data/schedule-code.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/AdSchedulingData/scheduleId/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-ad-scheduling-data/schedule-id.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/AdUnit///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-ad-unit/index.html
@@ -1216,6 +1217,15 @@ $dokka.location:com.bluebillywig.bbnativeshared.model/VersioningData///PointingT
 $dokka.location:com.bluebillywig.bbnativeshared.model/VersioningData/VersioningData/#kotlin.String?#kotlin.String?/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-versioning-data/-versioning-data.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/VersioningData/state/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-versioning-data/state.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/VersioningData/timelineVersion/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-versioning-data/timeline-version.html
+$dokka.location:com.bluebillywig.bbnativeshared////PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/index.html
+$dokka.location:com.bluebillywig.bbnativeshared/AdMacroHelper.Companion///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/-ad-macro-helper/-companion/index.html
+$dokka.location:com.bluebillywig.bbnativeshared/AdMacroHelper///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/-ad-macro-helper/index.html
+$dokka.location:com.bluebillywig.bbnativeshared/AdMacroHelper/AdMacroHelper/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/-ad-macro-helper/-ad-macro-helper.html
+$dokka.location:com.bluebillywig.bbnativeshared/AdMacroHelper/resolveBracketMacro/#kotlin.String/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/-ad-macro-helper/resolve-bracket-macro.html
+$dokka.location:com.bluebillywig.bbnativeshared/AdMacroHelper/resolveMacro/#kotlin.String/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/-ad-macro-helper/resolve-macro.html
+$dokka.location:com.bluebillywig.bbnativeshared/AdMacroHelper/resolvePercentMacro/#kotlin.String/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/-ad-macro-helper/resolve-percent-macro.html
+$dokka.location:com.bluebillywig.bbnativeshared/AdMacroHelper/updateSettings/#kotlin.collections.Map[kotlin.String,kotlin.Any?]/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared/-ad-macro-helper/update-settings.html
+com.bluebillywig.bbnativeshared
 com.bluebillywig.bbnativeshared.data
 com.bluebillywig.bbnativeshared.enums
 com.bluebillywig.bbnativeshared.loggers
