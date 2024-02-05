@@ -1198,11 +1198,15 @@ $dokka.location:com.bluebillywig.bbnativeshared.model/Publication/usePreferredPl
 $dokka.location:com.bluebillywig.bbnativeshared.model/Publication/useThumbsFromMetadata/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-publication/use-thumbs-from-metadata.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Publication/wsChatEndpoint/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-publication/ws-chat-endpoint.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Quality///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-quality/index.html
-$dokka.location:com.bluebillywig.bbnativeshared.model/Quality/Quality/#kotlin.String?#kotlin.Int?#kotlin.String?#kotlin.Boolean?/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-quality/-quality.html
+$dokka.location:com.bluebillywig.bbnativeshared.model/Quality/Quality/#kotlin.String?#kotlin.Int?#kotlin.String?#kotlin.Boolean?#kotlin.String?#kotlin.String?#kotlin.Int#kotlin.Int/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-quality/-quality.html
+$dokka.location:com.bluebillywig.bbnativeshared.model/Quality/bitrate/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-quality/bitrate.html
+$dokka.location:com.bluebillywig.bbnativeshared.model/Quality/height/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-quality/height.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Quality/id/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-quality/id.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Quality/index/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-quality/--index--.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Quality/isSelected/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-quality/is-selected.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/Quality/label/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-quality/label.html
+$dokka.location:com.bluebillywig.bbnativeshared.model/Quality/mimeType/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-quality/mime-type.html
+$dokka.location:com.bluebillywig.bbnativeshared.model/Quality/origId/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-quality/orig-id.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/RequestParams///PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-request-params/index.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/RequestParams/RequestParams/#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-request-params/-request-params.html
 $dokka.location:com.bluebillywig.bbnativeshared.model/RequestParams/contentid/#/PointingToDeclaration/bbnativeshared/com.bluebillywig.bbnativeshared.model/-request-params/contentid.html
