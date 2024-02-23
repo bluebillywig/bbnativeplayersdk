@@ -9,7 +9,7 @@ In Xcode, create a new iOS project using Objective-C or Swift. Use BBNativePlaye
 
 ## 2. Add the BlueBillywigNativePlayerKit-iOS to the Xcode project
 
-Installing the BlueBillywigNativePlayerKit using CocoaPods  
+### 2a. Installing the BlueBillywigNativePlayerKit using CocoaPods
 
 CocoaPods is a dependency manager for Xcode projects and is the recommended method for installing the BlueBillywigNativePlayerKit. For more information on installing or using CocoaPods, see the [CocoaPods documentation](https://guides.cocoapods.org/). Once you have CocoaPods installed, use the following instructions to install the IMA SDK:  
 
@@ -36,7 +36,28 @@ Verify that the installation was successful by opening the BBNativePlayerExample
 If there is a problem installing or updating the pods use this command:
 `pod cache clean --all; rm -rf Podfile.lock Pods; pod install --repo-update`  
 
-## 2a. Because the framework might use the GoogleCast framework you have to put the following key/strings to your plist 
+### 2b. Installing the BlueBillywigNativePlayerKit using Swift Package Manager
+
+Swift Package Manager (SPM) is a tool for managing Swift packages. It is integrated into Xcode and packages can be added directly to a project through the Xcode UI. For more information on installing packages or using SPM within Xcode, see the [Apple documentation](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app). Once a new project is created or an existing project is opened in Xcode, use the following steps to add the BlueBillywigNativePlayerKit:
+
+> **Note**
+> The following instructions apply to (at least) Xcode 14.3.1. In other Xcode versions the names of buttons or menu items may vary slightly.
+
+In Xcode navigate to **File > Add Packages...**. A new window should open with a list of Apple Swift Packages. In the top right corner of the window a search bar should be located containing the following text: _Search or Enter Package URL_. In this search bar enter the URL to the BlueBillywigNativePlayerKit (https://github.com/bluebillywig/bbnativeplayerkit-cocoapod). This will show the **bbnativeplayerkit-cocoapod** package instead of the list of Apple Swift Packages.
+
+Select the **bbnativeplayerkit-cocoapod** package and below the search bar the general information of the package will appear. Click on the dropdown box next to **Dependency Rule** to select which type of version(s) to use.
+
+> **Note**
+> It is strongly recommended to use the **Exact Version** rule as the BlueBillywigNativePlayerKit versions may not exactly follow [Semantic Versioning](https://semver.org/).
+
+In the text box that appears next to the dropdown box enter the version of the BlueBillywigNativePlayerKit to use. Click on the dropdown box next to **Add to Project** and select a project.
+
+The **Add Package** button in the bottom right corner of the window should now no longer be disabled. Click on this button to include the BlueBillywigNativePlayerKit to the project.
+
+A new window should open showing the progress of downloading/processing the package and its dependencies. This may take some time to complete.
+
+### 2c. Because the framework might use the GoogleCast framework you have to put the following key/strings to your plist
+
 &ensp;**(Apple obligates you to do this if the code reference is there even if you don't want to use ChromeCast)**
 
     <key>NSBonjourServices</key>
