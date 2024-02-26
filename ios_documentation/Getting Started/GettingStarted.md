@@ -41,14 +41,17 @@ If there is a problem installing or updating the pods use this command:
 Swift Package Manager (SPM) is a tool for managing Swift packages. It is integrated into Xcode and packages can be added directly to a project through the Xcode UI. For more information on installing packages or using SPM within Xcode, see the [Apple documentation](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app). Once a new project is created or an existing project is opened in Xcode, use the following steps to add the BlueBillywigNativePlayerKit:
 
 > **Note**
-> The following instructions apply to (at least) Xcode 14.3.1. In other Xcode versions the names of buttons or menu items may vary slightly.
+> The following instructions apply to Xcode 14.3.1. In other Xcode versions the names of buttons or menu items may vary slightly.
 
 In Xcode navigate to **File > Add Packages...**. A new window should open with a list of Apple Swift Packages. In the top right corner of the window a search bar should be located containing the following text: _Search or Enter Package URL_. In this search bar enter the URL to the BlueBillywigNativePlayerKit (https://github.com/bluebillywig/bbnativeplayerkit-cocoapod). This will show the **bbnativeplayerkit-cocoapod** package instead of the list of Apple Swift Packages.
+
+> **Note**
+> The **bbnativeplayerkit-cocoapod** repository name references CocoaPods. This is due to CocoaPods being the first dependency management tool that was supported. The repository contains the compiled BBNativePlayerKit framework and is not limited to CocoaPods only.
 
 Select the **bbnativeplayerkit-cocoapod** package and below the search bar the general information of the package will appear. Click on the dropdown box next to **Dependency Rule** to select which type of version(s) to use.
 
 > **Note**
-> It is strongly recommended to use the **Exact Version** rule as the BlueBillywigNativePlayerKit versions may not exactly follow [Semantic Versioning](https://semver.org/).
+> It is strongly recommended to use the **Exact Version** rule as the BlueBillywigNativePlayerKit versions may not exactly follow [Semantic Versioning](https://semver.org/). Click [here](https://github.com/bluebillywig/bbnativeplayerkit-cocoapod/releases) for the list of BBNativePlayerKit versions.
 
 In the text box that appears next to the dropdown box enter the version of the BlueBillywigNativePlayerKit to use. Click on the dropdown box next to **Add to Project** and select a project.
 
