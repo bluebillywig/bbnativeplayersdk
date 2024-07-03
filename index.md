@@ -17,6 +17,7 @@ When creating a player view, you supply a json embed URL and (optionally) an opt
 [Getting Started](android_documentation/Getting%20Started/GettingStarted.html "Android Getting Started")  
 [Android SDK Reference](/bbnativeplayersdk/android/latest "Android SDK Reference")  
 [Android Demo App](https://github.com/bluebillywig/bbnativeplayersdk-demo "Android Demo App")  
+&ensp;[Know How: How to enable ChromeCast](android_documentation/Know%20How/How%20to%20enable%20ChromeCast.html "special topics")
 
 ## iOS
 
