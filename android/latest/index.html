@@ -1,68 +1,115 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html class="no-js">
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>All modules</title>
-<link href="images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "";</script><script type="text/javascript" src="scripts/sourceset_dependencies.js" async="async"></script><link href="styles/style.css" rel="Stylesheet"><link href="styles/logo-styles.css" rel="Stylesheet"><link href="styles/jetbrains-mono.css" rel="Stylesheet"><link href="styles/main.css" rel="Stylesheet"><script type="text/javascript" src="scripts/clipboard.js" async="async"></script><script type="text/javascript" src="scripts/navigation-loader.js" async="async"></script><script type="text/javascript" src="scripts/platform-content-handler.js" async="async"></script><script type="text/javascript" src="scripts/main.js" async="async"></script><link href="styles/multimodule.css" rel="Stylesheet">  </head>
-  <body>
-    <div id="container">
-      <div id="leftColumn"><a href="index.html">
-          <div id="logo"></div>
-        </a>
-        <div id="paneSearch"></div>
-        <div id="sideMenu"></div>
-      </div>
-      <div id="main">
-        <div id="leftToggler"><span class="icon-toggler"></span></div>
-<script type="text/javascript" src="scripts/main.js"></script>        <div class="main-content" id="content" pageIds="BB Native Player SDK::.ext/allModules///PointingToDeclaration//0">
-          <div class="navigation-wrapper" id="navigation-wrapper">
-            <div class="breadcrumbs"></div>
-            <div class="pull-right d-flex">
-              <div id="searchBar"></div>
+    <link href="images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="scripts/sourceset_dependencies.js" async="async"></script>
+<link href="styles/style.css" rel="Stylesheet">
+<link href="styles/main.css" rel="Stylesheet">
+<link href="styles/prism.css" rel="Stylesheet">
+<link href="styles/logo-styles.css" rel="Stylesheet">
+<link href="styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="index.html">
+                            BB Native Player SDK
+                    </a>
             </div>
-          </div>
-          <div class="cover ">
-            <div class="cover ">
-              <h1 class="">Module bbnativeplayersdk-kotlin</h1>
-              <p class="paragraph">This is our native player SDK for Android.</p>
-              <h1 class=""> Package com.bluebillywig.bbnativeplayersdk</h1>
-              <h2 class=""> Design Philosophy</h2>
-              <p class="paragraph">The SDK has three main structures; two classes and an interface.</p>
-              <p class="paragraph">The BBNativePlayer class only has static factory functions for creating the views that do the actual work.<br>The BBNativePlayerView class, which extends the platform’s core UI View class (iOS: UIView, Android: View), is what you place in your layout. It offers an API to control the player (<code>callApiMethod</code>) and get/set player properties (<code>getApiProperty</code>/<code>setApiProperty</code>).<br>Finally, if needed, you make your own implementation of the BBPlayerViewDelegate interface and assign it to the player view in order to respond to events.</p>
-              <p class="paragraph">When creating a player view, you supply a json embed URL and (optionally) an options dictionary.  The json URL is similar to Blue Billywig's standard embed URL. Its only difference is the .json extension, e.g.  <code>https://demo.bbvms.com/p/default_standard/c/2431946.json</code> .  Thus, it supports various content types (clip, playlist, project), and playout configurations.</p>
-              <h2 class=""> Dependencies</h2>
-              <p class="paragraph">This library uses Ktor 2.0.3, Coroutines 1.6.0-native-mt, Exoplayer 2.19.1 and Google Cast 21.0.0. Consumers of the library that depend on Ktor themselves may override its version within the range 2.0.0, 2.0.3. Similarly, for Coroutines within the range 1.5.2-native-mt, 1.6.2. Similarly, for Exoplayer within the range [2.17, 2.20[. (see: <a href="https://docs.gradle.org/current/userguide/dependency_downgrade_and_exclude.html">https://docs.gradle.org/current/userguide/dependency_downgrade_and_exclude.html</a> )</p>
-              <h2 class=""> Releases</h2>
-              <p class="paragraph">The library's release history can be found at: <a href="https://search.maven.org/artifact/com.bluebillywig.bbnativeplayersdk/bbnativeplayersdk">https://search.maven.org/artifact/com.bluebillywig.bbnativeplayersdk/bbnativeplayersdk</a> .</p>
+            <div class="library-version">
             </div>
-            <h2 class="">All modules:</h2>
-            <div class="table"><a data-name="-646694055%2FMain%2F0" anchor-label="bbnativeshared" id="-646694055%2FMain%2F0" data-filterable-set=""></a>
-              <div class="table-row">
-                <div class="main-subrow ">
-                  <div class="w-100"><span class="inline-flex"><a href="bbnativeshared/index.html">bbnativeshared</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-646694055%2FMain%2F0"></span>
-                        <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                      </span></span></div>
-                  <div><span class="brief-comment">
-                      <p class="paragraph">Multi-platform part of the Native Player SDK library.</p>
-                    </span></div>
-                </div>
-              </div>
-<a data-name="-1732218391%2FMain%2F0" anchor-label="bbnativeplayersdk-kotlin" id="-1732218391%2FMain%2F0" data-filterable-set=""></a>
-              <div class="table-row">
-                <div class="main-subrow ">
-                  <div class="w-100"><span class="inline-flex"><a href="bbnativeplayersdk-kotlin/index.html">bbnativeplayersdk-kotlin</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1732218391%2FMain%2F0"></span>
-                        <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                      </span></span></div>
-                  <div><span class="brief-comment">
-                      <p class="paragraph">Android-specific part of the Native Player SDK library.</p>
-                    </span></div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span></div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" id="content" pageIds="BB Native Player SDK::.ext/allModules///PointingToDeclaration//0">
+  <div class="breadcrumbs"></div>
+  <div class="cover ">
+    <div class="cover ">
+      <h1 class="">Module bbnativeplayersdk-kotlin</h1>
+      <p class="paragraph">This is our native player SDK for Android.</p>
+      <h1 class="">Package com.bluebillywig.bbnativeplayersdk</h1>
+      <h2 class="">Design Philosophy</h2>
+      <p class="paragraph">The SDK has three main structures; two classes and an interface.</p>
+      <p class="paragraph">The <i>BBNativePlayer</i> class only has static factory functions for creating the views that do the actual work.<br>The <i>BBNativePlayerView</i> class, which extends the platform’s core UI View class (iOS: UIView, Android: View), is what you place in your layout. It offers an API to control the player (<code class="lang-kotlin">callApiMethod</code>) and get/set player properties (<code class="lang-kotlin">getApiProperty</code>/<code class="lang-kotlin">setApiProperty</code>).<br>Finally, if needed, you make your own implementation of the <i>BBPlayerViewDelegate</i> interface and assign it to the player view in order to respond to events.</p>
+      <p class="paragraph">When creating a player view, you supply a json embed URL and (optionally) an options dictionary.  The json URL is similar to Blue Billywig's standard embed URL. Its only difference is the .json extension, e.g.  <code class="lang-kotlin">https://demo.bbvms.com/p/default_standard/c/2431946.json</code> .  Thus, it supports various content types (clip, playlist, project), and playout configurations.</p>
+      <h2 class="">Dependencies</h2>
+      <p class="paragraph">This library uses Ktor 2.0.3, Coroutines 1.6.0-native-mt, Exoplayer 2.19.1 and Google Cast 21.0.0. Consumers of the library that depend on Ktor themselves may override its version within the range 2.0.0, 2.0.3. Similarly, for Coroutines within the range 1.5.2-native-mt, 1.6.2. Similarly, for Exoplayer within the range [2.17, 2.20[. (see: <a href="https://docs.gradle.org/current/userguide/dependency_downgrade_and_exclude.html">https://docs.gradle.org/current/userguide/dependency_downgrade_and_exclude.html</a> )</p>
+      <h2 class="">Releases</h2>
+      <p class="paragraph">The library's release history can be found at: <a href="https://search.maven.org/artifact/com.bluebillywig.bbnativeplayersdk/bbnativeplayersdk">https://search.maven.org/artifact/com.bluebillywig.bbnativeplayersdk/bbnativeplayersdk</a> .</p>
+    </div>
+    <h2 class="">All modules:</h2>
+    <div class="table"><a data-name="-1732218391%2FMain%2F0" anchor-label="bbnativeplayersdk-kotlin" id="-1732218391%2FMain%2F0" data-filterable-set=""></a>
+      <div class="table-row">
+        <div class="main-subrow ">
+          <div class="w-100"><span class="inline-flex">
+              <div><a href="bbnativeplayersdk-kotlin/index.html">bbnativeplayersdk-kotlin</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1732218391%2FMain%2F0"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div><span class="brief-comment">
+              <p class="paragraph">Android-specific part of the Native Player SDK library.</p>
+            </span></div>
+        </div>
+      </div>
+<a data-name="-646694055%2FMain%2F0" anchor-label="bbnativeshared" id="-646694055%2FMain%2F0" data-filterable-set=""></a>
+      <div class="table-row">
+        <div class="main-subrow ">
+          <div class="w-100"><span class="inline-flex">
+              <div><a href="bbnativeshared/index.html">bbnativeshared</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-646694055%2FMain%2F0"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div><span class="brief-comment">
+              <p class="paragraph">Multi-platform part of the Native Player SDK library.</p>
+            </span></div>
+        </div>
       </div>
     </div>
-  </body>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
-

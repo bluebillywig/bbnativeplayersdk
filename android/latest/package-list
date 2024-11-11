@@ -1,0 +1,11 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+module:bbnativeplayersdk-kotlin
+com.bluebillywig.bbnativeplayersdk
+module:bbnativeshared
+com.bluebillywig.bbnativeshared
+com.bluebillywig.bbnativeshared.data
+com.bluebillywig.bbnativeshared.enums
+com.bluebillywig.bbnativeshared.loggers
+com.bluebillywig.bbnativeshared.model

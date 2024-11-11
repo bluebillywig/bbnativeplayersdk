@@ -1,0 +1,655 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>BBNativePlayerViewDelegate</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../index.html">
+                            BB Native Player SDK
+                    </a>            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="bbnativeplayersdk-kotlin::com.bluebillywig.bbnativeplayersdk/BBNativePlayerViewDelegate///PointingToDeclaration//-228819865">
+  <div class="breadcrumbs"><a href="../../index.html">bbnativeplayersdk-kotlin</a><span class="delimiter">/</span><a href="../index.html">com.bluebillywig.bbnativeplayersdk</a><span class="delimiter">/</span><span class="current">BBNativePlayerViewDelegate</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>BBNative</span><wbr><span>Player</span><wbr><span>View</span><wbr><span><span>Delegate</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="index.html">BBNativePlayerViewDelegate</a></div><p class="paragraph">BBNativePlayerViewDelegate is what you implement to act as BBNativePlayerView's delegate.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1056604933%2FFunctions%2F-228819865" anchor-label="didFailWithError" id="1056604933%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-fail-with-error.html"><span>did</span><wbr><span>Fail</span><wbr><span>With</span><wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1056604933%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-fail-with-error.html"><span class="token function">didFailWithError</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a><span class="token punctuation">, </span></span><span class="parameter ">error<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-828013263%2FFunctions%2F-228819865" anchor-label="didRequestCollapse" id="-828013263%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-request-collapse.html"><span>did</span><wbr><span>Request</span><wbr><span><span>Collapse</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-828013263%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-request-collapse.html"><span class="token function">didRequestCollapse</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1055788962%2FFunctions%2F-228819865" anchor-label="didRequestExpand" id="-1055788962%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-request-expand.html"><span>did</span><wbr><span>Request</span><wbr><span><span>Expand</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1055788962%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-request-expand.html"><span class="token function">didRequestExpand</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="374709005%2FFunctions%2F-228819865" anchor-label="didRequestOpenUrl" id="374709005%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-request-open-url.html"><span>did</span><wbr><span>Request</span><wbr><span>Open</span><wbr><span><span>Url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="374709005%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-request-open-url.html"><span class="token function">didRequestOpenUrl</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a><span class="token punctuation">, </span></span><span class="parameter ">url<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-965903681%2FFunctions%2F-228819865" anchor-label="didSetupWithJsonUrl" id="-965903681%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-setup-with-json-url.html"><span>did</span><wbr><span>Setup</span><wbr><span>With</span><wbr><span>Json</span><wbr><span><span>Url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-965903681%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-setup-with-json-url.html"><span class="token function">didSetupWithJsonUrl</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a><span class="token punctuation">, </span></span><span class="parameter ">url<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-909911850%2FFunctions%2F-228819865" anchor-label="didTriggerAdError" id="-909911850%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-ad-error.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Ad</span><wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-909911850%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-ad-error.html"><span class="token function">didTriggerAdError</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a><span class="token punctuation">, </span></span><span class="parameter ">error<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2121811554%2FFunctions%2F-228819865" anchor-label="didTriggerAdFinished" id="2121811554%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-ad-finished.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Ad</span><wbr><span><span>Finished</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2121811554%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-ad-finished.html"><span class="token function">didTriggerAdFinished</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1234471243%2FFunctions%2F-228819865" anchor-label="didTriggerAdLoaded" id="-1234471243%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-ad-loaded.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Ad</span><wbr><span><span>Loaded</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1234471243%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-ad-loaded.html"><span class="token function">didTriggerAdLoaded</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="900581084%2FFunctions%2F-228819865" anchor-label="didTriggerAdLoadStart" id="900581084%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-ad-load-start.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Ad</span><wbr><span>Load</span><wbr><span><span>Start</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="900581084%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-ad-load-start.html"><span class="token function">didTriggerAdLoadStart</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1041016735%2FFunctions%2F-228819865" anchor-label="didTriggerAdNotFound" id="1041016735%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-ad-not-found.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Ad</span><wbr><span>Not</span><wbr><span><span>Found</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1041016735%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-ad-not-found.html"><span class="token function">didTriggerAdNotFound</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="93235022%2FFunctions%2F-228819865" anchor-label="didTriggerAdQuartile1" id="93235022%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-ad-quartile1.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Ad</span><wbr><span><span>Quartile1</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="93235022%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-ad-quartile1.html"><span class="token function">didTriggerAdQuartile1</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="213354895%2FFunctions%2F-228819865" anchor-label="didTriggerAdQuartile2" id="213354895%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-ad-quartile2.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Ad</span><wbr><span><span>Quartile2</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="213354895%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-ad-quartile2.html"><span class="token function">didTriggerAdQuartile2</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="333474768%2FFunctions%2F-228819865" anchor-label="didTriggerAdQuartile3" id="333474768%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-ad-quartile3.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Ad</span><wbr><span><span>Quartile3</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="333474768%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-ad-quartile3.html"><span class="token function">didTriggerAdQuartile3</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="798360961%2FFunctions%2F-228819865" anchor-label="didTriggerAdStarted" id="798360961%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-ad-started.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Ad</span><wbr><span><span>Started</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="798360961%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-ad-started.html"><span class="token function">didTriggerAdStarted</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-551617121%2FFunctions%2F-228819865" anchor-label="didTriggerAllAdsCompleted" id="-551617121%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-all-ads-completed.html"><span>did</span><wbr><span>Trigger</span><wbr><span>All</span><wbr><span>Ads</span><wbr><span><span>Completed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-551617121%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-all-ads-completed.html"><span class="token function">didTriggerAllAdsCompleted</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-705908492%2FFunctions%2F-228819865" anchor-label="didTriggerAutoPause" id="-705908492%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-auto-pause.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Auto</span><wbr><span><span>Pause</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-705908492%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-auto-pause.html"><span class="token function">didTriggerAutoPause</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a><span class="token punctuation">, </span></span><span class="parameter ">why<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1087055072%2FFunctions%2F-228819865" anchor-label="didTriggerAutoPausePlay" id="-1087055072%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-auto-pause-play.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Auto</span><wbr><span>Pause</span><wbr><span><span>Play</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1087055072%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-auto-pause-play.html"><span class="token function">didTriggerAutoPausePlay</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a><span class="token punctuation">, </span></span><span class="parameter ">why<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="555643399%2FFunctions%2F-228819865" anchor-label="didTriggerCanPlay" id="555643399%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-can-play.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Can</span><wbr><span><span>Play</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="555643399%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-can-play.html"><span class="token function">didTriggerCanPlay</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1986008988%2FFunctions%2F-228819865" anchor-label="didTriggerCustomStatistics" id="1986008988%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-custom-statistics.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Custom</span><wbr><span><span>Statistics</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1986008988%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-custom-statistics.html"><span class="token function">didTriggerCustomStatistics</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a><span class="token punctuation">, </span></span><span class="parameter ">ident<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">ev<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">aux<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1539001363%2FFunctions%2F-228819865" anchor-label="didTriggerDurationChange" id="-1539001363%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-duration-change.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Duration</span><wbr><span><span>Change</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1539001363%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-duration-change.html"><span class="token function">didTriggerDurationChange</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a><span class="token punctuation">, </span></span><span class="parameter ">duration<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-537588259%2FFunctions%2F-228819865" anchor-label="didTriggerEnded" id="-537588259%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-ended.html"><span>did</span><wbr><span>Trigger</span><wbr><span><span>Ended</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-537588259%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-ended.html"><span class="token function">didTriggerEnded</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="830353896%2FFunctions%2F-228819865" anchor-label="didTriggerFullscreen" id="830353896%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-fullscreen.html"><span>did</span><wbr><span>Trigger</span><wbr><span><span>Fullscreen</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="830353896%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-fullscreen.html"><span class="token function">didTriggerFullscreen</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-140614700%2FFunctions%2F-228819865" anchor-label="didTriggerMediaClipFailed" id="-140614700%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-media-clip-failed.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Media</span><wbr><span>Clip</span><wbr><span><span>Failed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-140614700%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-media-clip-failed.html"><span class="token function">didTriggerMediaClipFailed</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1266989051%2FFunctions%2F-228819865" anchor-label="didTriggerMediaClipLoaded" id="-1266989051%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-media-clip-loaded.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Media</span><wbr><span>Clip</span><wbr><span><span>Loaded</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1266989051%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-media-clip-loaded.html"><span class="token function">didTriggerMediaClipLoaded</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a><span class="token punctuation">, </span></span><span class="parameter ">clipData<span class="token operator">: </span><a href="../../../bbnativeshared/com.bluebillywig.bbnativeshared.model/-media-clip/index.html">MediaClip</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="811691838%2FFunctions%2F-228819865" anchor-label="didTriggerModeChange" id="811691838%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-mode-change.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Mode</span><wbr><span><span>Change</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="811691838%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-mode-change.html"><span class="token function">didTriggerModeChange</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a><span class="token punctuation">, </span></span><span class="parameter ">mode<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-976474087%2FFunctions%2F-228819865" anchor-label="didTriggerPause" id="-976474087%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-pause.html"><span>did</span><wbr><span>Trigger</span><wbr><span><span>Pause</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-976474087%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-pause.html"><span class="token function">didTriggerPause</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1107729917%2FFunctions%2F-228819865" anchor-label="didTriggerPhaseChange" id="-1107729917%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-phase-change.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Phase</span><wbr><span><span>Change</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1107729917%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-phase-change.html"><span class="token function">didTriggerPhaseChange</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a><span class="token punctuation">, </span></span><span class="parameter ">phase<span class="token operator">: </span><a href="../../../bbnativeshared/com.bluebillywig.bbnativeshared.enums/-phase/index.html">Phase</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2123740513%2FFunctions%2F-228819865" anchor-label="didTriggerPlay" id="2123740513%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-play.html"><span>did</span><wbr><span>Trigger</span><wbr><span><span>Play</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2123740513%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-play.html"><span class="token function">didTriggerPlay</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1404485231%2FFunctions%2F-228819865" anchor-label="didTriggerPlaying" id="-1404485231%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-playing.html"><span>did</span><wbr><span>Trigger</span><wbr><span><span>Playing</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1404485231%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-playing.html"><span class="token function">didTriggerPlaying</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1417968613%2FFunctions%2F-228819865" anchor-label="didTriggerProjectLoaded" id="1417968613%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-project-loaded.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Project</span><wbr><span><span>Loaded</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1417968613%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-project-loaded.html"><span class="token function">didTriggerProjectLoaded</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a><span class="token punctuation">, </span></span><span class="parameter ">projectData<span class="token operator">: </span><a href="../../../bbnativeshared/com.bluebillywig.bbnativeshared.model/-project/index.html">Project</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-54567745%2FFunctions%2F-228819865" anchor-label="didTriggerRetractFullscreen" id="-54567745%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-retract-fullscreen.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Retract</span><wbr><span><span>Fullscreen</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-54567745%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-retract-fullscreen.html"><span class="token function">didTriggerRetractFullscreen</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="344750362%2FFunctions%2F-228819865" anchor-label="didTriggerSeeked" id="344750362%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-seeked.html"><span>did</span><wbr><span>Trigger</span><wbr><span><span>Seeked</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="344750362%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-seeked.html"><span class="token function">didTriggerSeeked</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a><span class="token punctuation">, </span></span><span class="parameter ">seekOffset<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-330395955%2FFunctions%2F-228819865" anchor-label="didTriggerSeeking" id="-330395955%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-seeking.html"><span>did</span><wbr><span>Trigger</span><wbr><span><span>Seeking</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-330395955%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-seeking.html"><span class="token function">didTriggerSeeking</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-899265469%2FFunctions%2F-228819865" anchor-label="didTriggerStall" id="-899265469%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-stall.html"><span>did</span><wbr><span>Trigger</span><wbr><span><span>Stall</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-899265469%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-stall.html"><span class="token function">didTriggerStall</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-424557885%2FFunctions%2F-228819865" anchor-label="didTriggerStateChange" id="-424557885%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-state-change.html"><span>did</span><wbr><span>Trigger</span><wbr><span>State</span><wbr><span><span>Change</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-424557885%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-state-change.html"><span class="token function">didTriggerStateChange</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a><span class="token punctuation">, </span></span><span class="parameter ">state<span class="token operator">: </span><a href="../../../bbnativeshared/com.bluebillywig.bbnativeshared.enums/-state/index.html">State</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-249620956%2FFunctions%2F-228819865" anchor-label="didTriggerViewFinished" id="-249620956%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-view-finished.html"><span>did</span><wbr><span>Trigger</span><wbr><span>View</span><wbr><span><span>Finished</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-249620956%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-view-finished.html"><span class="token function">didTriggerViewFinished</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1691694463%2FFunctions%2F-228819865" anchor-label="didTriggerViewStarted" id="1691694463%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-view-started.html"><span>did</span><wbr><span>Trigger</span><wbr><span>View</span><wbr><span><span>Started</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1691694463%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-view-started.html"><span class="token function">didTriggerViewStarted</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="947008359%2FFunctions%2F-228819865" anchor-label="didTriggerVolumeChange" id="947008359%2FFunctions%2F-228819865" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="did-trigger-volume-change.html"><span>did</span><wbr><span>Trigger</span><wbr><span>Volume</span><wbr><span><span>Change</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="947008359%2FFunctions%2F-228819865"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-kotlin:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="did-trigger-volume-change.html"><span class="token function">didTriggerVolumeChange</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">playerView<span class="token operator">: </span><a href="../-b-b-native-player-view/index.html">BBNativePlayerView</a><span class="token punctuation">, </span></span><span class="parameter ">volume<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
