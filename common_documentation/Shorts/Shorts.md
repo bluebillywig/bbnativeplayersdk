@@ -32,5 +32,5 @@ If the Shorts Shelf needs to be responsive with respect to its height, the **enc
 Some of the features of our web-based Shorts offering are not (yet) supported in native. For instance: 
 
 - Advanced Sharing
-
+- First ad position
 
