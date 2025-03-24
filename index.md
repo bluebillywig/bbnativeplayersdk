@@ -31,3 +31,4 @@ When creating a player view, you supply a json embed URL and (optionally) an opt
 ## Common
 
 [Outstream](common_documentation/Outstream/Outstream.html "Outstream")  
+[Outstream](common_documentation/Shorts/Shorts.html "Shorts")  
