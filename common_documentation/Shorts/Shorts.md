@@ -23,7 +23,8 @@ If the Shorts Shelf needs to be responsive with respect to its height, the **enc
 ### Android
 `android:layout_height="wrap_content"` and at most one of `app:layout_constraintTop`, `app:layout_constraintBottom` .
 ### iOS
-`heightAnchor.constraint(...).isActive = false` and at most one of `topAnchor.constraint(...).isActive = true`, `bottomAnchor.constraint(...).isActive = true` .
+`heightAnchor.constraint(...).isActive = false` and at most one of  
+`topAnchor.constraint(...).isActive = true`, `bottomAnchor.constraint(...).isActive = true` .
 
 
 ## Unsupported
