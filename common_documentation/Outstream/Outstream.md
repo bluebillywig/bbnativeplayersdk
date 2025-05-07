@@ -16,6 +16,8 @@ If the outstream ad needs to start collapsed and/or collapse on end, as per the 
 Furthermore, the enclosing view needs to be unconstrained in the vertical direction; 
 `android:layout_height="wrap_content"` and at most one of `app:layout_constraintTop`, `app:layout_constraintBottom` .
 
+For iOS the same applies for the equivalent heightAnchor, topAnchor and bottomAnchor. Ensure the sdk can adjust the height of the player and make it repsonsive.
+
 Some applications may require the ad's media dimensions. Therefore, upon receiving `didTriggerAdLoaded`, the properties adMediaWidth &amp; adMediaHeight can be retrieved, either directly from the player view via `getApiProperty`, or from the player API.  
 
 Other options that are relevant to pass in:
