@@ -13,8 +13,12 @@ A helper function exists for constructing it:
     BBNativePlayer.createJsonEmbedUrl(baseUrl: "https://demo.bbvms.com", appIndicator: "a", appId: "native_sdk_outstream")
 
 If the outstream ad needs to start collapsed and/or collapse on end, as per the adunit&rsquo;s (root-) settings, this has to be allowed explicitly via embed option &lsquo;allowCollapseExpand&rsquo; = true.
-Furthermore, the enclosing view needs to be unconstrained in the vertical direction; 
-`android:layout_height="wrap_content"` and at most one of `app:layout_constraintTop`, `app:layout_constraintBottom` .
+Furthermore, the enclosing view needs to be unconstrained in the vertical direction, viz.:
+`android:layout_height="wrap_content"` and at most one of
+`app:layout_constraintTop`, `app:layout_constraintBottom` for Android, or
+
+`heightAnchor.constraint(...).isActive = false` and at most one of
+`topAnchor.constraint(...).isActive = true`, `bottomAnchor.constraint(...).isActive = true` for iOS.
 
 For iOS the same applies for the equivalent heightAnchor, topAnchor and bottomAnchor. Ensure the sdk can adjust the height of the player and make it repsonsive.
 
