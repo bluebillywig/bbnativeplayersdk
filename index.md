@@ -32,3 +32,4 @@ When creating a player view, you supply a json embed URL and (optionally) an opt
 
 [Outstream](common_documentation/Outstream/Outstream.html "Outstream")  
 [Shorts](common_documentation/Shorts/Shorts.html "Shorts")  
+[Renderer](common_documentation/Renderer/Renderer.html "Renderer")
