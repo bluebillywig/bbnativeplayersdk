@@ -45,13 +45,16 @@ end
 
 
 
-<p><br /><strong>2a. Because the framework might use the GoogleCast framework you have to put the following key/strings to your plist (Apple obligates you to do this if the code reference is there even if you don't want to use ChromeCast)</p></strong>
-
+<p><br /><strong>2a. Because the framework might use the GoogleCast framework you have to put the following key/strings to your plist
 <pre><code>
+&lt;key&gt;NSLocalNetworkUsageDescription&lt;/key&gt;
+&lt;string&gt;${PRODUCT_NAME} needs local area network access for google chromecast.&lt;/string&gt;
+
 &lt;key&gt;NSBonjourServices&lt;/key&gt;
 &lt;array&gt;
+  &lt;string&gt;_lnp._tcp&lt;/string&gt;
   &lt;string&gt;_googlecast._tcp&lt;/string&gt;
-  &lt;string&gt;ABCD1234._googlecast._tcp&lt;/string&gt;
+  &lt;string&gt;_1F61A3A5._googlecast._tcp&lt;/string&gt;
 &lt;/array&gt;
 &lt;key&gt;NSBluetoothAlwaysUsageDescription&lt;/key&gt;
 &lt;string&gt;${PRODUCT_NAME} uses Bluetooth to discover nearby Cast devices.&lt;/string&gt;
@@ -61,20 +64,8 @@ end
 &lt;string&gt;${PRODUCT_NAME} uses microphone access to listen for ultrasonic tokens
 when pairing with nearby Cast devices.&lt;/string&gt;
 </code></pre>
-
-Where "ABCD1234" is your appId. 
-
-The fastest way to find this string is to put in:
-----._googlecast._tcp
-Then run your app and embed a player
-Look for the Log line "....._googlecast._tcp is missing in values associated with the key NSBonjourServices in info.plist"
-This will tell you the String that is missing. Change it into that.
-
-
-
-
-
-
+Please change the the strings starting with "${PRODUCT_NAME}" so they are appropriate for your app.
+If you are uing the non-Bluetooth version (see below) them omit the Bluetooth strings.
 
 <p><br /><strong>3. Import the BBNativePlayerKit</strong><br />Next, add the BBNativePlayerKit framework to the ViewController using an import statement beneath the existing imports.</p>
 <pre><code>
