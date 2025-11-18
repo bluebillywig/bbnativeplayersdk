@@ -23,7 +23,7 @@ When creating a player view, you supply a json embed URL and (optionally) an opt
 ## iOS
 
 [Getting Started](ios_documentation/Getting%20Started/GettingStarted.html "iOS Getting Started")  
-[Release Notes](ios_documentation/Release%20Notes/Release%20Notes.html "iOS Release Notes")
+[Release Notes](ios_documentation/Release%20Notes/Release%20Notes.html "iOS Release Notes")  
 [iOS SDK Reference](/bbnativeplayersdk/ios/latest "iOS SDK Reference")  
 [iOS Demo App](https://github.com/bluebillywig/bbnativeplayerkit-demo "iOS Demo App")  
 &ensp;[Know How: Adding a close button to the modal player view](ios_documentation/Know%20How/Adding%20a%20close%20button%20to%20the%20modal%20player%20view.html "special topics")  
