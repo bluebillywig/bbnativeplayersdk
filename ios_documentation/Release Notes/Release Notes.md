@@ -12,9 +12,6 @@
 
 ### Artifacts
 
-[BlueBillywigNativePlayerKit-iOS = 8.37.0](https://cocoapods.org/pods/BlueBillywigNativePlayerKit-iOS "bbnativeplayerkit 8.37.0")
-[BlueBillywigNativePlayerKit-iOS/GoogleCastSDKNoBluetooth](https://cocoapods.org/pods/BlueBillywigNativePlayerKit-iOS "bbnativeplayerkit 8.37.0")
-[BlueBillywigNativeShared-iOS = 8.37.0](https://cocoapods.org/pods/BlueBillywigNativeShared-iOS "bbnativeshared 8.37.0") (optional)
-
-
-
+[BlueBillywigNativePlayerKit-iOS = 8.37.0](https://cocoapods.org/pods/BlueBillywigNativePlayerKit-iOS "bbnativeplayerkit 8.37.0")  
+[BlueBillywigNativePlayerKit-iOS/GoogleCastSDKNoBluetooth](https://cocoapods.org/pods/BlueBillywigNativePlayerKit-iOS "bbnativeplayerkit 8.37.0")  
+[BlueBillywigNativeShared-iOS = 8.37.0](https://cocoapods.org/pods/BlueBillywigNativeShared-iOS "bbnativeshared 8.37.0") (optional)  
