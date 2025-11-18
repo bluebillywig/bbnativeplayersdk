@@ -15,7 +15,7 @@ When creating a player view, you supply a json embed URL and (optionally) an opt
 ## Android
 
 [Getting Started](android_documentation/Getting%20Started/GettingStarted.html "Android Getting Started")  
-[Release Notes](android_documentation/Release%20Notes/Release%20Notes.html "Release Notes")  
+[Release Notes](android_documentation/Release%20Notes/Release%20Notes.html "Android Release Notes")  
 [Android SDK Reference](/bbnativeplayersdk/android/latest "Android SDK Reference")  
 [Android Demo App](https://github.com/bluebillywig/bbnativeplayersdk-demo "Android Demo App")  
 &ensp;[Know How: How to enable ChromeCast](android_documentation/Know%20How/How%20to%20enable%20ChromeCast.html "special topics")
@@ -23,6 +23,7 @@ When creating a player view, you supply a json embed URL and (optionally) an opt
 ## iOS
 
 [Getting Started](ios_documentation/Getting%20Started/GettingStarted.html "iOS Getting Started")  
+[Release Notes](ios_documentation/Release%20Notes/Release%20Notes.html "iOS Release Notes")
 [iOS SDK Reference](/bbnativeplayersdk/ios/latest "iOS SDK Reference")  
 [iOS Demo App](https://github.com/bluebillywig/bbnativeplayerkit-demo "iOS Demo App")  
 &ensp;[Know How: Adding a close button to the modal player view](ios_documentation/Know%20How/Adding%20a%20close%20button%20to%20the%20modal%20player%20view.html "special topics")  
