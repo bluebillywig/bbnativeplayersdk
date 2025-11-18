@@ -69,12 +69,13 @@ A new window should open showing the progress of downloading/processing the pack
 
 ### 2c. Because the framework might use the GoogleCast framework you have to put the following key/strings to your plist
 
-&ensp;**(Apple obligates you to do this if the code reference is there even if you don't want to use ChromeCast)**
-
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>${PRODUCT_NAME} needs local area network access for google chromecast device discovery.</string>
     <key>NSBonjourServices</key>
     <array>
+    <string>_lnp._tcp</string>
     <string>_googlecast._tcp</string>
-    <string>ABCD1234._googlecast._tcp</string>
+    <string>_1F61A3A5._googlecast._tcp</string>
     </array>
     <key>NSBluetoothAlwaysUsageDescription</key>
     <string>${PRODUCT_NAME} uses Bluetooth to discover nearby Cast devices.</string>
@@ -84,13 +85,8 @@ A new window should open showing the progress of downloading/processing the pack
     <string>${PRODUCT_NAME} uses microphone access to listen for ultrasonic tokens
     when pairing with nearby Cast devices.</string>
 
-Where "ABCD1234" is your appId.
-
-The fastest way to find this string is to put in:
-----._googlecast._tcp
-Then run your app and embed a player
-Look for the Log line "....._googlecast._tcp is missing in values associated with the key NSBonjourServices in info.plist"
-This will tell you the String that is missing. Change it into that.
+Please change the the strings starting with "${PRODUCT_NAME}" so they are appropriate for your app.
+If you are uing the non-Bluetooth version (see below) then omit the Bluetooth strings.
 
 ## 3. Import the BBNativePlayerKit
 
