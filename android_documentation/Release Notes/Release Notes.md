@@ -1,5 +1,20 @@
 # Release Notes
 
+## v8.39.1 (2025-11-24)
+
+### Features
+
+* Custom ad skipping is now supported
+* Implemented swipe to skip for Shorts
+* Added post-roll support
+* We added isCasting for information on whether casting active
+
+### Artifacts
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.39.1](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.39.1 "bbnativeplayersdk")
+[com.bluebillywig.bbnativeplayersdk:bbnativeshared:8.39.1](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.39.1 "bbnativeshared") (optional)
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk-core:8.39.1](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.39.1 "bbnativeplayersdk-core") (optional)
+
+
 ## v8.38.1 (2025-11-18)
 
 ### Bug Fixes
