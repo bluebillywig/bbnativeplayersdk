@@ -197,7 +197,7 @@ Only two delegate methods are implemented here as an example. See the documentat
 
 ## 8. App permissions
 
-Edit the app/src/main/AndroidManifest.xml and add inside <manifest>:
+Edit the app/src/main/AndroidManifest.xml and add inside &lt;manifest&gt;:
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
