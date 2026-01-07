@@ -195,6 +195,16 @@ Only two delegate methods are implemented here as an example. See the documentat
         ...
     }
 
+## 8. App permissions
+
+Edit the app/src/main/AndroidManifest.xml and add inside <manifest>:
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+
+
 ## 8. Build and run the project
 
 For more information and example code, check out our demo app at [https://github.com/bluebillywig/bbnativeplayersdk-demo](https://github.com/bluebillywig/bbnativeplayersdk-demo "bbnativeplayersdk-demo")
