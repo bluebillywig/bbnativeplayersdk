@@ -1,12 +1,26 @@
 
-# Getting Started 
+# Getting Started
 
-&ensp;*with Native Player SDK for Android*
+&ensp;*with the Native Player SDK for Android*
 ## 1. Create a new Android project
 
-In Android studio, create a new Android project and select "Empty Activity". Select the language of your choice, for this example we will be using kotlin. Use BBNativePlayerExample as the project name.  
+In Android Studio, create a new Android project and select "Empty Activity". Select the language of your choice, for this example we will be using kotlin. Use BBNativePlayerExample as the project name.
 
 ## 2. Add the bbnativeplayersdk dependency
+
+Edit the root build.gradle(.kts) file and add:
+
+    allprojects {
+        repositories {
+            ...
+            // Needed for Google Media3/Exoplayer
+            maven {
+                url "https://maven.google.com"
+                (or .kts)
+                url = "https://maven.google.com"
+            }
+        }
+    }
 
 Add com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:&lt;version&gt; to the app/build.gradle:
 
@@ -14,27 +28,27 @@ Add com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:&lt;version&gt; to the 
         id 'com.android.application'
         id 'kotlin-android'
     }
-    
+
     android { ... }
-    
+
     dependencies {
         ....
-        implementation 'com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:7.98.0'
+        implementation 'com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.40.0'
         ....
     }
 
-For build.gradle.kts this would be:
+For app/build.gradle.kts this would be:
 
     plugins {
         id("com.android.application")
         kotlin("android")
     }
-    
+
     android { ... }
-    
+
     dependencies {
         ....
-        implementation("com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:7.98.0")
+        implementation("com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.40.0")
         ....
     }
 
@@ -71,18 +85,18 @@ Next, add a LinearLayout in the parent layout in activity_main.xml.
 
 ## 5. Create a BBNativePlayerView
 
-In the onCreate method in the MainActivity add the following code to create a BBPlayerView and add it to the current view. Use your own embed url as jsonUrl parameter
+In the onCreate method in the MainActivity add the following code to create a BBNativePlayerView and add it to the current view. Use your own embed url as jsonUrl parameter
 ### Java
 
     package com.bluebillywig.bbnativeplayerexample;
-    
+
     import androidx.appcompat.app.AppCompatActivity;
-    
+
     import android.os.Bundle;
     import android.widget.LinearLayout;
     import com.bluebillywig.bbnativeplayersdk.BBNativePlayer;
     import com.bluebillywig.bbnativeplayersdk.BBNativePlayerView;
-    
+
     public class MainActivity extends AppCompatActivity {
         private LinearLayout playerContainer;
         private BBNativePlayerView playerView;
@@ -95,7 +109,7 @@ In the onCreate method in the MainActivity add the following code to create a BB
             playerContainer = findViewById(R.id.player_container);
 
             playerView = BBNativePlayer.Companion.createPlayerView(this, "https://demo.bbvms.com/p/native_sdk_inoutview/c/4256635.json", null);
-        
+
         playerContainer.addView(playerView);
         }
     }
@@ -121,7 +135,7 @@ In the onCreate method in the MainActivity add the following code to create a BB
             playerContainer = findViewById&lt;LinearLayout&gt;(R.id.player_container)
 
             playerView = BBNativePlayer.createPlayerView(this, "https://demo.bbvms.com/p/native_sdk_inoutview/c/4256635.json")
-        
+
         playerContainer.addView(playerView)
         }
     }
@@ -150,18 +164,18 @@ For java this will ask if you would want to implement all methods in the BBNativ
 
 ## 6. Implement BBNativePlayerViewDelegate to receive all API events
 
-Just a few methods are implemented here as an example. See the documentation for a full list.
+Only two delegate methods are implemented here as an example. See the documentation for a full list.
 ### Java
 
     public class MainActivity extends AppCompatActivity implements BBNativePlayerViewDelegate {
         ...
         @Override
-        public void didTriggerPlaying(view: BBPlayerView) {
+        public void didTriggerPlaying(view: BBNativePlayerView) {
             Log.println(Log.INFO, "MainActivity", "Blue Billlywig Player: didTriggerPlay");
         }
 
         @Override
-        public void didTriggerPause(view: BBPlayerView) {
+        public void didTriggerPause(view: BBNativePlayerView) {
             Log.println(Log.INFO, "MainActivity", "Blue Billlywig Player: didTriggerPause");
         }
         ...
@@ -171,11 +185,11 @@ Just a few methods are implemented here as an example. See the documentation for
 
     class MainActivity : AppCompatActivity(), BBNativePlayerViewDelegate {
         ...
-        override fun didTriggerPlaying(view: BBPlayerView) {
+        override fun didTriggerPlaying(view: BBNativePlayerView) {
             Log.println(Log.INFO, "MainActivity", "Blue Billywig Player: didTriggerPlaying")
         }
 
-        override fun didTriggerPause(view: BBPlayerView) {
+        override fun didTriggerPause(view: BBNativePlayerView) {
             Log.println(Log.INFO, "MainActivity", "Blue Billywig Player: didTriggerPause")
         }
         ...
@@ -187,35 +201,30 @@ For more information and example code, check out our demo app at [https://github
 
 ## 9. Testing with snapshot version
 
-For example: `com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:7.98-0-SNAPSHOT`  
+For example: `com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.40-0-SNAPSHOT`
 
-To test with a snapshot version with Android gradle plugin 4.2.2 and gradle version 6.7.1  
+To test with a snapshot version;
 
 Edit the root build.gradle(.kts) file and add:
 
     allprojects {
         repositories {
             ...
+            // Needed to be able to use snapshots immediately
             maven {
-                url "https://s01.oss.sonatype.org/content/repositories/snapshots"
+                url "https://central.sonatype.com/repository/maven-snapshots"
                 (or .kts)
-                url = "https://s01.oss.sonatype.org/content/repositories/snapshots"
+                url = "https://central.sonatype.com/repository/maven-snapshots"
             }
         }
     }
 
-To test with a snapshot version with Android gradle plugin 7.0 and gradle version 7.02 (and above)  
+Edit the app/build.gradle(.kts) file and add:
 
-Edit the root settings.gradle(.kts) file and add:
-
-    dependencyResolutionManagement {
+    dependencies {
         ...
-        repositories {
-            ...
-            maven {
-                url "https://s01.oss.sonatype.org/content/repositories/snapshots"
-                (or .kts)
-                url = "https://s01.oss.sonatype.org/content/repositories/snapshots"
-            }
-        }
+        implementation "com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.40-0-SNAPSHOT"
+        (or .kts)
+        implementation("com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.40-0-SNAPSHOT")
+        ...
     }
