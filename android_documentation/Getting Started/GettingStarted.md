@@ -140,7 +140,7 @@ In the onCreate method in the MainActivity add the following code to create a BB
         }
     }
 
-## 5. Implement the BBNativePlayerViewDelegate
+## 6. Implement the BBNativePlayerViewDelegate to receive all API events (optional)
 
 For java this will ask if you would want to implement all methods in the BBNativePlayerViewDelegate, just say yes.
 ### Java
@@ -162,9 +162,7 @@ For java this will ask if you would want to implement all methods in the BBNativ
         }
     }
 
-## 6. Implement BBNativePlayerViewDelegate to receive all API events
-
-Only two delegate methods are implemented here as an example. See the documentation for a full list.
+Only two delegate methods are implemented here as an example. See the [documentation](https://bluebillywig.github.io/bbnativeplayersdk/android/latest/bbnativeplayersdk-kotlin/com.bluebillywig.bbnativeplayersdk/-b-b-native-player-view-delegate/index.html "-b-b-native-player-view-delegate") for a full list.
 ### Java
 
     public class MainActivity extends AppCompatActivity implements BBNativePlayerViewDelegate {
@@ -195,7 +193,7 @@ Only two delegate methods are implemented here as an example. See the documentat
         ...
     }
 
-## 8. App permissions
+## 7. App permissions
 
 Edit the app/src/main/AndroidManifest.xml and add inside &lt;manifest&gt;:
 
