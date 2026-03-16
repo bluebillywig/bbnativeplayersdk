@@ -1,5 +1,21 @@
 # Release Notes
 
+## v8.40.0 (2026-01-19)
+
+### Features
+
+* Added context to load API
+
+### Maintenance
+
+* Shorts ad skippability check improved
+
+### Artifacts
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.40.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.40.0 "bbnativeplayersdk")
+[com.bluebillywig.bbnativeplayersdk:bbnativeshared:8.40.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.40.0 "bbnativeshared") (optional)
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk-core:8.40.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.40.0 "bbnativeplayersdk-core") (optional)
+
+
 ## v8.39.1 (2025-11-24)
 
 ### Features
@@ -40,6 +56,3 @@
 [com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.38.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.38.0 "bbnativeplayersdk")
 [com.bluebillywig.bbnativeplayersdk:bbnativeshared:8.38.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.38.0 "bbnativeshared") (optional)
 [com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk-core:8.38.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.38.0 "bbnativeplayersdk-core") (optional)
-
-
-
