@@ -1,5 +1,18 @@
 # Release Notes
 
+## v8.42.1 (2026-02-02)
+
+### Bug Fixes
+
+* Cast replay
+* Player type for outstream
+
+### Artifacts
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.42.1](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.42.1 "bbnativeplayersdk")
+[com.bluebillywig.bbnativeplayersdk:bbnativeshared:8.42.1](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.42.1 "bbnativeshared") (optional)
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk-core:8.42.1](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.42.1 "bbnativeplayersdk-core") (optional)
+
+
 ## v8.40.0 (2026-01-19)
 
 ### Features
