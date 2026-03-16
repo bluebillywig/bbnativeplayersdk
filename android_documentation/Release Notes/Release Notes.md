@@ -1,5 +1,23 @@
 # Release Notes
 
+## v8.45.0 (2026-03-02)
+
+### Features
+* Back arrow button in modal player
+* Added relativeToCurrentTime parameter to seek API
+* Shelf moving thumbnail
+
+### Maintenance
+
+* Memory leaks
+* Event bus thread-safety
+
+### Artifacts
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.45.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.45.0 "bbnativeplayersdk")
+[com.bluebillywig.bbnativeplayersdk:bbnativeshared:8.45.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.45.0 "bbnativeshared") (optional)
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk-core:8.45.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.45.0 "bbnativeplayersdk-core") (optional)
+
+
 ## v8.43.0 (2026-02-16)
 
 ### Features
