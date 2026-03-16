@@ -1,6 +1,8 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
 
+module:bbnativeplayersdk-compose
+com.bluebillywig.bbnativeplayersdk.compose
 module:bbnativeplayersdk-kotlin
 com.bluebillywig.bbnativeplayersdk
 module:bbnativeshared
