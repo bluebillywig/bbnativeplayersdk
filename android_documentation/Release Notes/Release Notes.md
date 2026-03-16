@@ -1,5 +1,18 @@
 # Release Notes
 
+## v8.46.0 (2026-03-16)
+
+### Maintenance
+
+* Start controls hidden, apply playout or defaults when available
+* Upgraded kotlinx-datetime to 0.6.2
+
+### Artifacts
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.46.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.46.0 "bbnativeplayersdk")
+[com.bluebillywig.bbnativeplayersdk:bbnativeshared:8.46.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.46.0 "bbnativeshared") (optional)
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk-core:8.46.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.46.0 "bbnativeplayersdk-core") (optional)
+
+
 ## v8.45.0 (2026-03-02)
 
 ### Features
