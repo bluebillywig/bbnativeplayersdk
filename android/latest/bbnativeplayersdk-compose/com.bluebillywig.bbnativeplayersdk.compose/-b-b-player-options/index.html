@@ -1,0 +1,389 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>BBPlayerOptions</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../index.html">
+                            BB Native Player SDK
+                    </a>            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="bbnativeplayersdk-compose::com.bluebillywig.bbnativeplayersdk.compose/BBPlayerOptions///PointingToDeclaration//1534539198">
+  <div class="breadcrumbs"><a href="../../index.html">bbnativeplayersdk-compose</a><span class="delimiter">/</span><a href="../index.html">com.bluebillywig.bbnativeplayersdk.compose</a><span class="delimiter">/</span><span class="current">BBPlayerOptions</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>BBPlayer</span><wbr><span><span>Options</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">BBPlayerOptions</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>autoPlay<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>muted<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>noChromeCast<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>noStats<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>commercials<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>forceFullscreenLandscape<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>allowCollapseExpand<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>showChromeCastMiniControlsInPlayer<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>showDescription<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>waitForCmp<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>handleConsentManagement<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>tagForUnderAgeOfConsent<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>consentString<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>consentGdprApplies<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>consentCmpVersion<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>adsystemPpid<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>adsystemBuid<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>adTagUrlParams<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>custom<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-any/index.html">Any</a><span class="token operator">?</span><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div><p class="paragraph">Type-safe configuration options for <a href="../-b-b-native-player.html">BBNativePlayer</a>.</p><p class="paragraph">Replaces the untyped <code class="lang-kotlin">Map&lt;String, Any?&gt;</code> options parameter with compile-time checked properties. Use <a href="custom.html">custom</a> as an escape hatch for any options not yet covered by typed properties.</p><h4 class="">See also</h4><div class="table"><div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-b-b-native-player.html"><span>BBNative</span><wbr><span><span>Player</span></span></a></div></span></div><div></div></div></div></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="486718708%2FConstructors%2F1534539198" anchor-label="BBPlayerOptions" id="486718708%2FConstructors%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-b-b-player-options.html"><span>BBPlayer</span><wbr><span><span>Options</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="486718708%2FConstructors%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">autoPlay<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">muted<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">noChromeCast<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">noStats<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">commercials<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">forceFullscreenLandscape<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">allowCollapseExpand<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">showChromeCastMiniControlsInPlayer<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">showDescription<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">waitForCmp<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">handleConsentManagement<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">tagForUnderAgeOfConsent<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">consentString<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">consentGdprApplies<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">consentCmpVersion<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">adsystemPpid<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">adsystemBuid<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">adTagUrlParams<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">custom<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-any/index.html">Any</a><span class="token operator">?</span><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="-478166530%2FProperties%2F1534539198" anchor-label="adsystemBuid" id="-478166530%2FProperties%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="adsystem-buid.html"><span>adsystem</span><wbr><span><span>Buid</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-478166530%2FProperties%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="adsystem-buid.html">adsystemBuid</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1909005361%2FProperties%2F1534539198" anchor-label="adsystemPpid" id="1909005361%2FProperties%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="adsystem-ppid.html"><span>adsystem</span><wbr><span><span>Ppid</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1909005361%2FProperties%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="adsystem-ppid.html">adsystemPpid</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1781651008%2FProperties%2F1534539198" anchor-label="adTagUrlParams" id="1781651008%2FProperties%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="ad-tag-url-params.html"><span>ad</span><wbr><span>Tag</span><wbr><span>Url</span><wbr><span><span>Params</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1781651008%2FProperties%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="ad-tag-url-params.html">adTagUrlParams</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><p class="paragraph">Custom parameters to add to ad tag URLs. Keys should NOT include the "adTagUrlParam_" prefix.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2064247852%2FProperties%2F1534539198" anchor-label="allowCollapseExpand" id="2064247852%2FProperties%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="allow-collapse-expand.html"><span>allow</span><wbr><span>Collapse</span><wbr><span><span>Expand</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2064247852%2FProperties%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="allow-collapse-expand.html">allowCollapseExpand</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1424384453%2FProperties%2F1534539198" anchor-label="autoPlay" id="-1424384453%2FProperties%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="auto-play.html"><span>auto</span><wbr><span><span>Play</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1424384453%2FProperties%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="auto-play.html">autoPlay</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1501757645%2FProperties%2F1534539198" anchor-label="commercials" id="-1501757645%2FProperties%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="commercials.html"><span><span>commercials</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1501757645%2FProperties%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="commercials.html">commercials</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="817807184%2FProperties%2F1534539198" anchor-label="consentCmpVersion" id="817807184%2FProperties%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="consent-cmp-version.html"><span>consent</span><wbr><span>Cmp</span><wbr><span><span>Version</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="817807184%2FProperties%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="consent-cmp-version.html">consentCmpVersion</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1141219061%2FProperties%2F1534539198" anchor-label="consentGdprApplies" id="-1141219061%2FProperties%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="consent-gdpr-applies.html"><span>consent</span><wbr><span>Gdpr</span><wbr><span><span>Applies</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1141219061%2FProperties%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="consent-gdpr-applies.html">consentGdprApplies</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="864500561%2FProperties%2F1534539198" anchor-label="consentString" id="864500561%2FProperties%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="consent-string.html"><span>consent</span><wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="864500561%2FProperties%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="consent-string.html">consentString</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="736730189%2FProperties%2F1534539198" anchor-label="custom" id="736730189%2FProperties%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="custom.html"><span><span>custom</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="736730189%2FProperties%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="custom.html">custom</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-any/index.html">Any</a><span class="token operator">?</span><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><p class="paragraph">Escape hatch for custom or undocumented options.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="522303913%2FProperties%2F1534539198" anchor-label="forceFullscreenLandscape" id="522303913%2FProperties%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="force-fullscreen-landscape.html"><span>force</span><wbr><span>Fullscreen</span><wbr><span><span>Landscape</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="522303913%2FProperties%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="force-fullscreen-landscape.html">forceFullscreenLandscape</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1550118425%2FProperties%2F1534539198" anchor-label="handleConsentManagement" id="-1550118425%2FProperties%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="handle-consent-management.html"><span>handle</span><wbr><span>Consent</span><wbr><span><span>Management</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1550118425%2FProperties%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="handle-consent-management.html">handleConsentManagement</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1488667215%2FProperties%2F1534539198" anchor-label="muted" id="-1488667215%2FProperties%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="muted.html"><span><span>muted</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1488667215%2FProperties%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="muted.html">muted</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1194326620%2FProperties%2F1534539198" anchor-label="noChromeCast" id="-1194326620%2FProperties%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="no-chrome-cast.html"><span>no</span><wbr><span>Chrome</span><wbr><span><span>Cast</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1194326620%2FProperties%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="no-chrome-cast.html">noChromeCast</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1534507870%2FProperties%2F1534539198" anchor-label="noStats" id="1534507870%2FProperties%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="no-stats.html"><span>no</span><wbr><span><span>Stats</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1534507870%2FProperties%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="no-stats.html">noStats</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1402667701%2FProperties%2F1534539198" anchor-label="showChromeCastMiniControlsInPlayer" id="1402667701%2FProperties%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="show-chrome-cast-mini-controls-in-player.html"><span>show</span><wbr><span>Chrome</span><wbr><span>Cast</span><wbr><span>Mini</span><wbr><span>Controls</span><wbr><span>In</span><wbr><span><span>Player</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1402667701%2FProperties%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="show-chrome-cast-mini-controls-in-player.html">showChromeCastMiniControlsInPlayer</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-426548707%2FProperties%2F1534539198" anchor-label="showDescription" id="-426548707%2FProperties%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="show-description.html"><span>show</span><wbr><span><span>Description</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-426548707%2FProperties%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="show-description.html">showDescription</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1455415215%2FProperties%2F1534539198" anchor-label="tagForUnderAgeOfConsent" id="1455415215%2FProperties%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="tag-for-under-age-of-consent.html"><span>tag</span><wbr><span>For</span><wbr><span>Under</span><wbr><span>Age</span><wbr><span>Of</span><wbr><span><span>Consent</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1455415215%2FProperties%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="tag-for-under-age-of-consent.html">tagForUnderAgeOfConsent</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="219388108%2FProperties%2F1534539198" anchor-label="waitForCmp" id="219388108%2FProperties%2F1534539198" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":bbnativeplayersdk-compose:dokkaHtmlPartial/release" data-filterable-set=":bbnativeplayersdk-compose:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="wait-for-cmp.html"><span>wait</span><wbr><span>For</span><wbr><span><span>Cmp</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="219388108%2FProperties%2F1534539198"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":bbnativeplayersdk-compose:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="wait-for-cmp.html">waitForCmp</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2026 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
