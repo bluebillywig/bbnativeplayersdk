@@ -1,5 +1,18 @@
 # Release Notes
 
+## v8.47.0 (2026-03-30)
+
+### Maintenance
+
+* Added TalkBack support (accessibility)
+* Upgraded to Kotlin 2.3.10
+
+### Artifacts
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.47.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.47.0 "bbnativeplayersdk")
+[com.bluebillywig.bbnativeplayersdk:bbnativeshared:8.47.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.47.0 "bbnativeshared") (optional)
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk-core:8.47.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.47.0 "bbnativeplayersdk-core") (optional)
+
+
 ## v8.46.0 (2026-03-16)
 
 ### Maintenance
