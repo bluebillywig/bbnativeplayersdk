@@ -5,6 +5,7 @@
 ### Maintenance
 
 * Added TalkBack support (accessibility)
+* Clip-level related items list
 * Upgraded to Kotlin 2.3.10
 
 ### Artifacts
