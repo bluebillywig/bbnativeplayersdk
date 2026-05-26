@@ -1,5 +1,29 @@
 # Release Notes
 
+## v8.50.0 (2026-05-11)
+
+### Artifacts
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.50.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.50.0 "bbnativepla$
+[com.bluebillywig.bbnativeplayersdk:bbnativeshared:8.50.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.50.0 "bbnativeshared$
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk-core:8.50.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.50.0 "bbnati$
+
+
+## v8.49.0 (2026-04-28)
+
+### Artifacts
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.49.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.49.0 "bbnativepla$
+[com.bluebillywig.bbnativeplayersdk:bbnativeshared:8.49.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.49.0 "bbnativeshared$
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk-core:8.49.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.49.0 "bbnati$
+
+
+## v8.48.0 (2026-04-13)
+
+### Artifacts
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.48.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.48.0 "bbnativepla$
+[com.bluebillywig.bbnativeplayersdk:bbnativeshared:8.48.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.48.0 "bbnativeshared$
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk-core:8.48.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.48.0 "bbnati$
+
+
 ## v8.47.0 (2026-03-30)
 
 ### Maintenance
