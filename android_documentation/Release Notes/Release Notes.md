@@ -1,5 +1,16 @@
 # Release Notes
 
+## v8.51.0 (2026-05-26)
+
+### Maintenance
+
+* Reference documentation redone
+* renamed namespace com.bluebillywig.bbnativeplayersdk to com.bluebillywig.bbnativeplayersdk.core
+
+### Artifacts
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.51.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.51.0 "bbnativepla$
+
+
 ## v8.50.0 (2026-05-11)
 
 ### Artifacts
