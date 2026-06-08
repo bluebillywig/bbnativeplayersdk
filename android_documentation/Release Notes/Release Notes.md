@@ -1,38 +1,49 @@
 # Release Notes
 
+## v8.52.0 (2026-06-08)
+
+### Maintenance
+
+* improved Subtitle selection
+* polished SDK Reference
+
+### Artifacts
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.52.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.52.0 "bbnativeplayersdk")
+
+
 ## v8.51.0 (2026-05-26)
 
 ### Maintenance
 
-* Reference documentation redone
+* revised SDK Reference
 * renamed namespace com.bluebillywig.bbnativeplayersdk to com.bluebillywig.bbnativeplayersdk.core
 
 ### Artifacts
-[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.51.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.51.0 "bbnativepla$
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.51.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.51.0 "bbnativeplayersdk")
 
 
 ## v8.50.0 (2026-05-11)
 
 ### Artifacts
-[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.50.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.50.0 "bbnativepla$
-[com.bluebillywig.bbnativeplayersdk:bbnativeshared:8.50.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.50.0 "bbnativeshared$
-[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk-core:8.50.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.50.0 "bbnati$
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.50.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.50.0 "bbnativeplayersdk")
+[com.bluebillywig.bbnativeplayersdk:bbnativeshared:8.50.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.50.0 "bbnativeshared") (optional)
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk-core:8.50.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.50.0 "bbnativeplayersdk-core") (optional)
 
 
 ## v8.49.0 (2026-04-28)
 
 ### Artifacts
-[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.49.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.49.0 "bbnativepla$
-[com.bluebillywig.bbnativeplayersdk:bbnativeshared:8.49.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.49.0 "bbnativeshared$
-[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk-core:8.49.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.49.0 "bbnati$
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.49.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.49.0 "bbnativeplayersdk")
+[com.bluebillywig.bbnativeplayersdk:bbnativeshared:8.49.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.49.0 "bbnativeshared") (optional)
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk-core:8.49.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.49.0 "bbnativeplayersdk-core") (optional)
 
 
 ## v8.48.0 (2026-04-13)
 
 ### Artifacts
-[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.48.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.48.0 "bbnativepla$
-[com.bluebillywig.bbnativeplayersdk:bbnativeshared:8.48.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.48.0 "bbnativeshared$
-[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk-core:8.48.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.48.0 "bbnati$
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk:8.48.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.48.0 "bbnativeplayersdk")
+[com.bluebillywig.bbnativeplayersdk:bbnativeshared:8.48.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.48.0 "bbnativeshared") (optional)
+[com.bluebillywig.bbnativeplayersdk:bbnativeplayersdk-core:8.48.0](https://repo1.maven.org/maven2/com/bluebillywig/bbnativeplayersdk/bbnativeplayersdk/8.48.0 "bbnativeplayersdk-core") (optional)
 
 
 ## v8.47.0 (2026-03-30)
