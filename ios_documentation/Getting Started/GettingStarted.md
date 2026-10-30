@@ -9,65 +9,32 @@ In Xcode, create a new iOS project using Objective-C or Swift. Use BBNativePlaye
 
 ## 2. Add the BlueBillywigNativePlayerKit-iOS to the Xcode project
 
-### 2a. Installing the BlueBillywigNativePlayerKit using CocoaPods
+> **Note**
+> CocoaPods: version 8.64 is the last version on CocoaPods and gets no further updates. Move to Swift Package Manager; [the migration guide](https://support.bluebillywig.com/native-sdk/ios-sdk-cocoapods-to-swift-package-manager/) has the steps.
 
-CocoaPods is a dependency manager for Xcode projects and is the recommended method for installing the BlueBillywigNativePlayerKit. For more information on installing or using CocoaPods, see the [CocoaPods documentation](https://guides.cocoapods.org/). Once you have CocoaPods installed, use the following instructions to install the IMA SDK:
+### 2a. Installing the BlueBillywigNativePlayerKit using Swift Package Manager
 
-In the same directory as your BBNativePlayerExample.xcodeproject file, create a text file called Podfile, and add the following configuration:
-
-    platform :ios, '12.0'
-
-    target 'BBNativePlayerExample' do
-    # Pods for bbnativeplayerkit-demo
-    pod 'BlueBillywigNativePlayerKit-iOS', '~>7.98'
-    pod 'BlueBillywigNativePlayerKit-iOS/GoogleCastSDK'
-    end
+Swift Package Manager (SPM) is integrated into Xcode and packages can be added directly to a project through the Xcode UI. For more information on adding packages, see the [Apple documentation](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app). The package needs iOS 14.0 or later. It brings the shared module, Google IMA, Google User Messaging Platform and Google Cast, so you do not add those yourself.
 
 > **Note**
-> The `BlueBillywigNativePlayerKit-iOS/GoogleCastSDK` must be specified.
-> When the BlueBillywigNativePlayerKit is required to not have Bluetooth, the `BlueBillywigNativePlayerKit-iOS/GoogleCastSDKNoBluetooth` pod must be specified instead of the `BlueBillywigNativePlayerKit-iOS/GoogleCastSDK` pod.
+> The names of buttons and menu items may vary slightly between Xcode versions.
 
-From the directory that contains the Podfile, run:
-`pod install --repo-update`
+1. In Xcode, go to **File > Add Package Dependencies**.
+2. In the search field, enter the URL of the BlueBillywigNativePlayerKit: `https://github.com/bluebillywig/bbnativeplayerkit-cocoapod`. This shows the **bbnativeplayerkit-cocoapod** package.
+3. Set **Dependency Rule** to **Exact Version** and enter 8.63.0 or a later version. A new SDK version can contain breaking changes even when only the middle number goes up. See the [list of versions](https://github.com/bluebillywig/bbnativeplayerkit-cocoapod/releases).
+4. Click **Add Package**. Xcode downloads the package and its dependencies, which may take some time.
+5. Xcode lists the two products of the package. Pick one:
+   - `BlueBillywigNativePlayerKit-iOS`: Google Cast with Bluetooth.
+   - `BlueBillywigNativePlayerKit-iOS-NoBluetooth`: Google Cast without Bluetooth.
 
-This will install the pod 'BlueBillywigNativePlayerKit-iOS' and dependencies, you should see something like this:
-
-`Installing BlueBillywigNativePlayerKit-iOS (0.1.1)`
-`Installing BlueBillywigNativeShared-iOS (0.1.1)`
-`Installing GoogleAds-IMA-iOS-SDK (3.13.0)`
-`Installing google-cast-sdk-dynamic-ios-bb (4.7.0)`
-
-Verify that the installation was successful by opening the BBNativePlayerExample.xcworkspace file and confirming that it contains two projects: BBNativePlayerExample and Pods (the dependencies installed by CocoaPods).
-If there is a problem installing or updating the pods use this command:
-`pod cache clean --all; rm -rf Podfile.lock Pods; pod install --repo-update`
-
-### 2b. Installing the BlueBillywigNativePlayerKit using Swift Package Manager
-
-Swift Package Manager (SPM) is a tool for managing Swift packages. It is integrated into Xcode and packages can be added directly to a project through the Xcode UI. For more information on installing packages or using SPM within Xcode, see the [Apple documentation](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app). Once a new project is created or an existing project is opened in Xcode, use the following steps to add the BlueBillywigNativePlayerKit:
+   Set **Add to Target** to your app target for the product you pick, and to **None** for the other one.
 
 > **Note**
-> The following instructions apply to Xcode 14.3.1. In other Xcode versions the names of buttons or menu items may vary slightly.
+> Add exactly one product, never both. Each one contains its own copy of Google Cast. If your app uses Google Cast without Bluetooth, pick the `-NoBluetooth` product.
 
-In Xcode navigate to **File > Add Packages...**. A new window should open with a list of Apple Swift Packages. In the top right corner of the window a search bar should be located containing the following text: _Search or Enter Package URL_. In this search bar enter the URL to the BlueBillywigNativePlayerKit (https://github.com/bluebillywig/bbnativeplayerkit-cocoapod). This will show the **bbnativeplayerkit-cocoapod** package instead of the list of Apple Swift Packages.
+The name **bbnativeplayerkit-cocoapod** dates from when CocoaPods was the first dependency manager we supported. The repository is the Swift package with the compiled BBNativePlayerKit framework.
 
-> **Note**
-> The **bbnativeplayerkit-cocoapod** repository name references CocoaPods. This is due to CocoaPods being the first dependency management tool that was supported. The repository contains the compiled BBNativePlayerKit framework and is not limited to CocoaPods only.
-
-Select the **bbnativeplayerkit-cocoapod** package and below the search bar the general information of the package will appear. Click on the dropdown box next to **Dependency Rule** to select which type of version(s) to use.
-
-> **Note**
-> It is strongly recommended to use the **Exact Version** rule as the BlueBillywigNativePlayerKit versions may not exactly follow [Semantic Versioning](https://semver.org/). Click [here](https://github.com/bluebillywig/bbnativeplayerkit-cocoapod/releases) for the list of BBNativePlayerKit versions.
-
-> **Note**
-> When the BlueBillywigNativePlayerKit is required to not have Bluetooth the **Branch** rule must be used with `<latest version>-no-bluetooth` (e.g. `8.7.2-no-bluetooth`). Since this is a branch name XCode cannot automatically update to the latest version, so it must be kept up-to-date manually. From BlueBillywigNativePlayerKit 8.7 every release will have a branch containing the "no-bluetooth" version.
-
-In the text box that appears next to the dropdown box enter the version of the BlueBillywigNativePlayerKit to use. Click on the dropdown box next to **Add to Project** and select a project.
-
-The **Add Package** button in the bottom right corner of the window should now no longer be disabled. Click on this button to include the BlueBillywigNativePlayerKit to the project.
-
-A new window should open showing the progress of downloading/processing the package and its dependencies. This may take some time to complete.
-
-### 2c. Because the framework might use the GoogleCast framework you have to put the following key/strings to your plist
+### 2b. Add the Google Cast keys to your Info.plist
 
     <key>NSLocalNetworkUsageDescription</key>
     <string>${PRODUCT_NAME} needs local area network access for google chromecast device discovery.</string>
@@ -86,7 +53,7 @@ A new window should open showing the progress of downloading/processing the pack
     when pairing with nearby Cast devices.</string>
 
 Please change the the strings starting with "${PRODUCT_NAME}" so they are appropriate for your app.
-If you are uing the non-Bluetooth version (see below) then omit the Bluetooth strings.
+If you use the `BlueBillywigNativePlayerKit-iOS-NoBluetooth` product, omit the Bluetooth strings.
 
 ## 3. Import the BBNativePlayerKit
 
