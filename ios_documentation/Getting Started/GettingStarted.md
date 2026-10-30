@@ -30,7 +30,7 @@ Swift Package Manager (SPM) is integrated into Xcode and packages can be added d
    Set **Add to Target** to your app target for the product you pick, and to **None** for the other one.
 
 > **Note**
-> Add exactly one product, never both. Each one contains its own copy of Google Cast. If your app uses Google Cast without Bluetooth, pick the `-NoBluetooth` product.
+> Add exactly one product, never both. Each one contains its own copy of Google Cast. If your app uses Google Cast without Bluetooth, pick the `-NoBluetooth` product. Pinned to a `<version>-no-bluetooth` branch? Switch to the `-NoBluetooth` product with Exact Version 8.63.0 or later.
 
 The name **bbnativeplayerkit-cocoapod** dates from when CocoaPods was the first dependency manager we supported. The repository is the Swift package with the compiled BBNativePlayerKit framework.
 
