@@ -21,7 +21,7 @@ Swift Package Manager (SPM) is integrated into Xcode and packages can be added d
 
 1. In Xcode, go to **File > Add Package Dependencies**.
 2. In the search field, enter the URL of the BlueBillywigNativePlayerKit: `https://github.com/bluebillywig/bbnativeplayerkit-cocoapod`. This shows the **bbnativeplayerkit-cocoapod** package.
-3. Set **Dependency Rule** to **Exact Version** and enter 8.63.0 or a later version. A new SDK version can contain breaking changes even when only the middle number goes up. See the [list of versions](https://github.com/bluebillywig/bbnativeplayerkit-cocoapod/releases).
+3. Set **Dependency Rule** to **Exact Version** and enter 8.63.2 or a later version. A new SDK version can contain breaking changes even when only the middle number goes up. See the [list of versions](https://github.com/bluebillywig/bbnativeplayerkit-cocoapod/releases).
 4. Click **Add Package**. Xcode downloads the package and its dependencies, which may take some time.
 5. Xcode lists the two products of the package. Pick one:
    - `BlueBillywigNativePlayerKit-iOS`: Google Cast with Bluetooth.
@@ -30,7 +30,7 @@ Swift Package Manager (SPM) is integrated into Xcode and packages can be added d
    Set **Add to Target** to your app target for the product you pick, and to **None** for the other one.
 
 > **Note**
-> Add exactly one product, never both. Each one contains its own copy of Google Cast. If your app uses Google Cast without Bluetooth, pick the `-NoBluetooth` product. The `<version>-no-bluetooth` branches are deprecated and 8.64 is the last version that gets one. Pinned to such a branch? Switch to the `-NoBluetooth` product with Exact Version 8.63.0 or later, or a version rule that floats.
+> Add exactly one product, never both. Each one contains its own copy of Google Cast. If your app uses Google Cast without Bluetooth, pick the `-NoBluetooth` product. The `<version>-no-bluetooth` branches are deprecated and 8.64 is the last version that gets one. Pinned to such a branch? Switch to the `-NoBluetooth` product with Exact Version 8.63.2 or later, or a version rule that floats.
 
 The name **bbnativeplayerkit-cocoapod** dates from when CocoaPods was the first dependency manager we supported. The repository is the Swift package with the compiled BBNativePlayerKit framework.
 
